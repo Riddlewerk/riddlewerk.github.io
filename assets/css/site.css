@@ -51,6 +51,8 @@
   --amber-rgb: 245, 158, 11;
   --sky: #38bdf8;
   --sky-rgb: 56, 189, 248;
+  --mint: #34d399;
+  --mint-rgb: 52, 211, 153;
 
   --accent: var(--amber);
   --accent-rgb: var(--amber-rgb);
@@ -812,6 +814,11 @@ strong {
 .game--zehn {
   --accent: var(--sky);
   --accent-rgb: var(--sky-rgb);
+}
+
+.game--werk {
+  --accent: var(--mint);
+  --accent-rgb: var(--mint-rgb);
 }
 
 /* Every second game mirrors its layout, so a third or fourth game is one more <article>. */
