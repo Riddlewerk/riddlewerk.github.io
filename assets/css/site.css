@@ -53,6 +53,10 @@
   --sky-rgb: 56, 189, 248;
   --mint: #34d399;
   --mint-rgb: 52, 211, 153;
+  --tangerine: #fb923c;
+  --tangerine-rgb: 251, 146, 60;
+  --volt: #facc15;
+  --volt-rgb: 250, 204, 21;
 
   --accent: var(--amber);
   --accent-rgb: var(--amber-rgb);
@@ -819,6 +823,16 @@ strong {
 .game--werk {
   --accent: var(--mint);
   --accent-rgb: var(--mint-rgb);
+}
+
+.game--griff {
+  --accent: var(--tangerine);
+  --accent-rgb: var(--tangerine-rgb);
+}
+
+.game--strom {
+  --accent: var(--volt);
+  --accent-rgb: var(--volt-rgb);
 }
 
 /* Every second game mirrors its layout, so a third or fourth game is one more <article>. */
