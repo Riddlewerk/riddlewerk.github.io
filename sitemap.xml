@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://riddlewerk.github.io/</loc>
+    <loc>https://riddlewerk.com/</loc>
     <lastmod>2026-10-10</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/"/>
   </url>
   <url>
-    <loc>https://riddlewerk.github.io/en/</loc>
+    <loc>https://riddlewerk.com/en/</loc>
     <lastmod>2026-10-10</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/"/>
   </url>
   <url>
-    <loc>https://riddlewerk.github.io/privacy.html</loc>
-    <lastmod>2026-10-10</lastmod>
-  </url>
-  <url>
-    <loc>https://riddlewerk.github.io/impressum.html</loc>
+    <loc>https://riddlewerk.com/privacy.html</loc>
     <lastmod>2026-10-10</lastmod>
   </url>
   <url>
-    <loc>https://riddlewerk.github.io/credits.html</loc>
+    <loc>https://riddlewerk.com/impressum.html</loc>
+    <lastmod>2026-10-10</lastmod>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/credits.html</loc>
     <lastmod>2026-10-10</lastmod>
   </url>
 </urlset>
