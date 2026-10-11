@@ -59,6 +59,8 @@
   --volt-rgb: 250, 204, 21;
   --rose: #fb7185;
   --rose-rgb: 251, 113, 133;
+  --indigo: #818cf8;
+  --indigo-rgb: 129, 140, 248;
 
   --accent: var(--amber);
   --accent-rgb: var(--amber-rgb);
@@ -835,6 +837,11 @@ strong {
 .game--strom {
   --accent: var(--volt);
   --accent-rgb: var(--volt-rgb);
+}
+
+.game--gleis {
+  --accent: var(--indigo);
+  --accent-rgb: var(--indigo-rgb);
 }
 
 .game--spiegel {

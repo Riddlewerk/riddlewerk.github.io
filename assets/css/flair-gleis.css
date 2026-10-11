@@ -1,0 +1,87 @@
+/* Riddlewerk: GLEIS's flair, a stretch of track and two trains rolling along it (flair-gleis.js).
+   Wide screens only, nothing with reduced motion; never in the way of reading or clicking. */
+
+.flair-gleis {
+  --lay: 1.1s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  pointer-events: none;
+  /* The line fades out at both ends instead of stopping at an edge. */
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 9%, #000 91%, transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0, #000 9%, #000 91%, transparent 100%);
+  transition: opacity 0.8s var(--ease, ease);
+}
+
+/* Along the bottom of the GLEIS page's hero, in its bottom padding. */
+.flair-gleis--hero {
+  bottom: 14px;
+  height: 40px;
+}
+
+/* Along the top of the GLEIS card on the home page, above its content. */
+.flair-gleis--card {
+  top: 12px;
+  height: 28px;
+  opacity: 0.9;
+}
+
+.flair-gleis.is-gone {
+  opacity: 0;
+}
+
+.flair-gleis__rail {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(0 100% 0 0);
+  animation: flair-gleis-lay var(--lay) cubic-bezier(0.3, 0.6, 0.3, 1) forwards;
+}
+
+.flair-gleis__rail svg {
+  display: block;
+}
+
+.flair-gleis__train {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: var(--len);
+  height: calc(var(--len) * 0.6);
+  margin-top: calc(var(--len) * -0.3);
+  transform: translate3d(calc(var(--len) * -1), 0, 0);
+  animation: flair-gleis-run var(--dur) cubic-bezier(0.42, 0, 0.58, 1) calc(var(--lay) * 0.6) forwards;
+  filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.45));
+  will-change: transform;
+}
+
+.flair-gleis__train--2 {
+  animation-delay: calc(var(--lay) * 0.6 + var(--gap));
+}
+
+.flair-gleis__train svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes flair-gleis-lay {
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes flair-gleis-run {
+  from {
+    transform: translate3d(calc(var(--len) * -1), 0, 0);
+  }
+  to {
+    transform: translate3d(var(--run), 0, 0);
+  }
+}
+
+@media (max-width: 899px), (prefers-reduced-motion: reduce) {
+  .flair-gleis {
+    display: none;
+  }
+}

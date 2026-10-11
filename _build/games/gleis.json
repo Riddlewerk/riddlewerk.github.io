@@ -1,0 +1,230 @@
+{
+  "id": "gleis",
+  "order": 6,
+  "letters": "GLEIS",
+  "flair": "gleis",
+  "media": {
+    "video": true,
+    "og": true,
+    "gallery": 7,
+    "phones": [
+      "home",
+      "board",
+      "worlds"
+    ]
+  },
+  "de": {
+    "name": "GLEIS",
+    "genre": "Eisenbahn-Rätsel",
+    "title": "GLEIS – Eisenbahn-Rätsel für Android und iPhone | Riddlewerk",
+    "description": "GLEIS ist ein ruhiges Eisenbahn-Rätsel: Leg Gleise, stell die Weichen, drück Los, und jeder Zug muss in den Bahnhof seiner Farbe. 160 Level in 10 Welten.",
+    "tagline": "Leg die Gleise. Stell die Weichen. Jeder Zug kommt an.",
+    "lead": [
+      "Am Rand stehen Depots mit ihrem Fahrplan, auf dem Feld warten Bahnhöfe in den Farben der Züge. Dazwischen legst du die Strecke: Geraden, Kurven, Weichen und Signale. Dann drückst du Los, und alle Züge fahren gleichzeitig, Takt für Takt. Jeder muss in den Bahnhof seiner Farbe, ohne zu entgleisen und ohne Zusammenstoß."
+    ],
+    "stats": [
+      [
+        "10",
+        "Welten"
+      ],
+      [
+        "160",
+        "Level"
+      ],
+      [
+        "7",
+        "Gleisstücke"
+      ],
+      [
+        "0",
+        "Zeitdruck"
+      ]
+    ],
+    "features": [
+      "Zehn Welten, vom ersten Gleis über Weiche, Kreuzung und Signal bis zum Hauptbahnhof mit bis zu sechs Zügen.",
+      "Sieben Gleisstücke: Gerade, Kurve, Kreuzung, Weiche, Farbweiche, Wechselweiche und Signal.",
+      "Ein Fingerzug legt eine ganze Strecke, die Kurven entstehen von selbst.",
+      "Ein Bestwert pro Level, von einem Löser geprüft: Mit so wenig Gleis wie möglich gibt es drei Sterne.",
+      "Kein Glück, kein Zeitdruck: Die Züge fahren erst, wenn du Los drückst, und jedes Mal genau gleich."
+    ],
+    "stepsTitle": "Legen, stellen, losfahren",
+    "steps": [
+      [
+        "Gleise legen",
+        "Wähl ein Stück aus der Werkbank und tipp aufs Feld, oder zieh mit dem Finger eine ganze Strecke vom Depot zum Bahnhof."
+      ],
+      [
+        "Weichen stellen",
+        "Tippen dreht ein Stück oder stellt eine Weiche um. Farbweichen schicken Züge nach ihrer Farbe, Signale lassen sie warten."
+      ],
+      [
+        "Los drücken",
+        "Alle Züge fahren nach ihrem Fahrplan, Takt für Takt. Kommt jeder in seinem Bahnhof an, mit wenig Gleis, gibt es drei Sterne."
+      ]
+    ],
+    "worldsTitle": "10 Welten mit je 16 Leveln",
+    "worlds": [
+      [
+        "Gleis",
+        "Von A nach B"
+      ],
+      [
+        "Kurve",
+        "Um die Ecke"
+      ],
+      [
+        "Weiche",
+        "Links oder rechts"
+      ],
+      [
+        "Farbe",
+        "Jeder Zug sein Bahnhof"
+      ],
+      [
+        "Kreuzung",
+        "Quer durch"
+      ],
+      [
+        "Signal",
+        "Halt und weiter"
+      ],
+      [
+        "Fahrplan",
+        "Alles zu seiner Zeit"
+      ],
+      [
+        "Rangierbahnhof",
+        "Sortieren"
+      ],
+      [
+        "Netz",
+        "Viele Linien"
+      ],
+      [
+        "Hauptbahnhof",
+        "Der große Knoten"
+      ]
+    ],
+    "gallery": [
+      "Leg die Gleise. Drück Los. – Jeder Zug in den Bahnhof seiner Farbe",
+      "Gerade, Kurve, Weiche – Ein Fingerzug legt die ganze Strecke",
+      "Rot heißt warten – Signale halten Züge, bis vorne frei ist",
+      "Farben und Fahrpläne – Jeder Zug zu seiner Zeit an sein Ziel",
+      "Wenig Gleis, drei Sterne – Drei Sterne gibt es für den Bestwert",
+      "160 Level – 10 Welten, vom Gleis zum Hauptbahnhof",
+      "Mach die Bahn zu deiner – 12 Designs und 6 Musikstücke"
+    ],
+    "phonesAlt": [
+      "GLEIS-Startbildschirm: Schriftzug G L E I S auf einem Gleis, die Welt „Fahrplan“ mit 15 von 16 gelösten Leveln und der Knopf „Weiterfahren“.",
+      "GLEIS-Spielfeld, Level 10 der Welt „Hauptbahnhof“: Fünf Züge fahren gleichzeitig über Weichen, eine Kreuzung und Farbweichen, einer wartet am roten Signal; oben der Fahrplan.",
+      "GLEIS-Weltenübersicht mit gezeichneten Bahnszenen: Kreuzung, Signal, Fahrplan, Rangierbahnhof, Netz und Hauptbahnhof."
+    ]
+  },
+  "en": {
+    "name": "GLEIS",
+    "genre": "Railway puzzle",
+    "title": "GLEIS – a railway puzzle for Android and iPhone | Riddlewerk",
+    "description": "GLEIS is a calm railway puzzle: lay track, set the points, press Go, and every train has to reach the station of its colour. 160 levels in 10 worlds.",
+    "tagline": "Lay the track. Set the points. Every train arrives.",
+    "lead": [
+      "Depots stand at the edge with their timetables, stations wait on the board in the trains’ colours. In between you lay the line: straights, curves, points and signals. Then you press Go, and all the trains run at once, tick by tick. Each one has to reach the station of its colour without derailing and without a crash."
+    ],
+    "stats": [
+      [
+        "10",
+        "Worlds"
+      ],
+      [
+        "160",
+        "Levels"
+      ],
+      [
+        "7",
+        "Pieces of track"
+      ],
+      [
+        "0",
+        "Time pressure"
+      ]
+    ],
+    "features": [
+      "Ten worlds, from the first track through points, crossings and signals to the central station with up to six trains.",
+      "Seven pieces of track: straight, curve, crossing, points, colour points, flip points and signal.",
+      "One swipe of a finger lays a whole line; the curves appear by themselves.",
+      "One best score per level, checked by a solver: use as little track as possible for three stars.",
+      "No luck, no time pressure: the trains only run when you press Go, and exactly the same way every time."
+    ],
+    "stepsTitle": "Lay, set, go",
+    "steps": [
+      [
+        "Lay the track",
+        "Pick a piece on the workbench and tap the board, or drag a finger to lay a whole line from the depot to the station."
+      ],
+      [
+        "Set the points",
+        "A tap turns a piece or switches points. Colour points send trains by their colour, signals make them wait."
+      ],
+      [
+        "Press Go",
+        "All trains run their timetable, tick by tick. If every one reaches its station, on little track, you get three stars."
+      ]
+    ],
+    "worldsTitle": "10 worlds of 16 levels each",
+    "worlds": [
+      [
+        "Track",
+        "From A to B"
+      ],
+      [
+        "Curve",
+        "Round the bend"
+      ],
+      [
+        "Points",
+        "Left or right"
+      ],
+      [
+        "Colour",
+        "Each train its station"
+      ],
+      [
+        "Crossing",
+        "Straight across"
+      ],
+      [
+        "Signal",
+        "Stop and go"
+      ],
+      [
+        "Timetable",
+        "All in good time"
+      ],
+      [
+        "Shunting yard",
+        "Sorting"
+      ],
+      [
+        "Network",
+        "Many lines"
+      ],
+      [
+        "Central station",
+        "The big junction"
+      ]
+    ],
+    "gallery": [
+      "Lay the track. Press Go. – Every train home to its own colour",
+      "Straights, curves, points – One swipe lays a whole line",
+      "Red means wait – Signals make trains wait their turn",
+      "Colours and timetables – Every train home, right on time",
+      "Less track, three stars – Match the best score for three stars",
+      "160 levels – 10 worlds, out to the central station",
+      "Make the railway yours – 12 designs and 6 music tracks"
+    ],
+    "phonesAlt": [
+      "GLEIS home screen: the G L E I S wordmark on a track, the Timetable world with 15 of 16 levels solved and the Keep going button.",
+      "GLEIS board, level 10 of the Central station world: five trains run at once over points, a crossing and colour points, one waiting at a red signal; above, the timetable.",
+      "GLEIS world overview with illustrated railway scenes: Crossing, Signal, Timetable, Shunting yard, Network and Central station."
+    ]
+  }
+}
