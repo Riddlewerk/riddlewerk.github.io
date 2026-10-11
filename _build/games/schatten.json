@@ -1,0 +1,278 @@
+{
+  "id": "schatten",
+  "order": 8,
+  "letters": "SCHATTEN",
+  "flair": "schatten",
+  "media": {
+    "video": true,
+    "og": true,
+    "gallery": 7,
+    "phones": [
+      "home",
+      "board",
+      "worlds"
+    ]
+  },
+  "de": {
+    "name": "SCHATTEN",
+    "genre": "Bau-Rätsel in 3D",
+    "title": "SCHATTEN – Bau-Rätsel in 3D für Android und iPhone | Riddlewerk",
+    "description": "SCHATTEN ist ein ruhiges Bau-Rätsel in 3D: Bau eine Skulptur, dreh den Raum, und jeder Schatten muss genau passen. 400 Level in 16 Welten.",
+    "tagline": "Bau die Skulptur. Dreh das Licht. Jeder Schatten muss passen.",
+    "lead": [
+      "Du baust in einem kleinen Raum, den du drehen kannst, eine Skulptur aus Würfeln, Rampen und Keilen. Drei Lampen werfen ihre Schatten: von vorn an die Rückwand, von der Seite an die linke Wand, von oben auf den Boden. Über dem Raum zeigt für jeden Schatten eine Tafel, wie er aussehen soll. Erst wenn jeder Schatten genau passt, ist das Level gelöst."
+    ],
+    "stats": [
+      [
+        "16",
+        "Welten"
+      ],
+      [
+        "400",
+        "Level"
+      ],
+      [
+        "3",
+        "Lampen"
+      ],
+      [
+        "0",
+        "Zeitdruck"
+      ]
+    ],
+    "features": [
+      "16 Welten, vom ersten Würfel über Rampen, Dächer, Türme und Brücken bis zur Galerie.",
+      "Drei Bauteile: Würfel, Rampe und Keil. Rampen und Keile werfen Dreiecke, Steinsäulen stehen schon da.",
+      "Ein Raum in 3D, den du in Vierteldrehungen drehst, um jede Seite zu sehen.",
+      "Ein bewiesener Bestwert pro Level: Mit den wenigsten Teilen gibt es drei Sterne.",
+      "Kein Glück, kein Zeitdruck: Was du baust, wirft genau diesen Schatten, jedes Mal."
+    ],
+    "stepsTitle": "Bauen, drehen, Schatten treffen",
+    "steps": [
+      [
+        "Bauen",
+        "Tipp auf ein Bodenfeld oder eine Würfelseite: Dort steht ein neues Teil. Tippen dreht eine Rampe oder einen Keil, langes Drücken nimmt ein Teil weg."
+      ],
+      [
+        "Drehen",
+        "Wisch quer über den Raum oder nimm die Pfeile, um ihn in Vierteldrehungen zu drehen und zu sehen, was hinten steht."
+      ],
+      [
+        "Schatten treffen",
+        "Die Tafeln zeigen, was passt: Grau fehlt noch, Grün passt, Rot ist zu viel. Passt jeder Schatten mit den wenigsten Teilen, gibt es drei Sterne."
+      ]
+    ],
+    "worldsTitle": "16 Welten mit je 25 Leveln",
+    "worlds": [
+      [
+        "Würfel",
+        "Ein Schatten"
+      ],
+      [
+        "Zwei Wände",
+        "Vorne und seitlich"
+      ],
+      [
+        "Boden",
+        "Auch von oben"
+      ],
+      [
+        "Rampen",
+        "Schräg nach oben"
+      ],
+      [
+        "Keile",
+        "Dreiecke von oben"
+      ],
+      [
+        "Dächer",
+        "Alles mit Schräge"
+      ],
+      [
+        "Lücken",
+        "Licht fällt durch"
+      ],
+      [
+        "Türme",
+        "Hoch hinaus"
+      ],
+      [
+        "Brücken",
+        "Über dem Boden"
+      ],
+      [
+        "Treppen",
+        "Stufen ins Leere"
+      ],
+      [
+        "Säulen",
+        "Stein steht schon"
+      ],
+      [
+        "Figuren",
+        "Bekannte Formen"
+      ],
+      [
+        "Bögen",
+        "Fenster im Schatten"
+      ],
+      [
+        "Skulptur",
+        "Kunstwerk"
+      ],
+      [
+        "Stadt",
+        "Dächer über Dächern"
+      ],
+      [
+        "Galerie",
+        "Die große Ausstellung"
+      ]
+    ],
+    "gallery": [
+      "Bau die Skulptur. Dreh das Licht. – Jeder Schatten muss genau passen",
+      "Würfel, Rampen, Keile – Halbe Würfel werfen schräge Schatten",
+      "Dreh den Raum – Jede Drehung zeigt eine neue Seite",
+      "Schatten werden Bilder – Haus, Burg, Kirche, Schiff und mehr",
+      "Wenig Teile, drei Sterne – Drei Sterne gibt es für den Bestwert",
+      "400 Level – 16 Welten, vom Würfel bis zur Galerie",
+      "Mach den Raum zu deinem – 12 Designs und 6 Musikstücke"
+    ],
+    "phonesAlt": [
+      "SCHATTEN-Startbildschirm: Schriftzug S C H A T T E N, jeder Buchstabe mit seinem Schatten, die Welt „Bögen“ mit 24 von 25 gelösten Leveln und der Knopf „Weiterbauen“.",
+      "SCHATTEN-Spielfeld, Level 7 der Welt „Stadt“: Die Skulptur aus Würfeln, Rampen und Keilen steht fertig im Raum, jeder Schatten passt und leuchtet grün an den Wänden; oben die drei Tafeln.",
+      "SCHATTEN-Weltenübersicht mit gezeichneten Räumen: Säulen, Figuren, Bögen, Skulptur, Stadt und Galerie."
+    ]
+  },
+  "en": {
+    "name": "SCHATTEN",
+    "genre": "3D building puzzle",
+    "title": "SCHATTEN – 3D building puzzle for Android and iPhone | Riddlewerk",
+    "description": "SCHATTEN is a calm 3D building puzzle: build a sculpture, turn the room, and every shadow has to fit exactly. 400 levels in 16 worlds.",
+    "tagline": "Build the sculpture. Turn the light. Every shadow must fit.",
+    "lead": [
+      "In a small room you can turn, you build a sculpture out of cubes, ramps and wedges. Three lamps throw its shadows: from the front on the back wall, from the side on the left wall, from above on the floor. Above the room, a panel for each shadow shows what it should look like. The level is solved only when every shadow fits exactly."
+    ],
+    "stats": [
+      [
+        "16",
+        "Worlds"
+      ],
+      [
+        "400",
+        "Levels"
+      ],
+      [
+        "3",
+        "Lamps"
+      ],
+      [
+        "0",
+        "Time pressure"
+      ]
+    ],
+    "features": [
+      "16 worlds, from the first cube through ramps, roofs, towers and bridges to the gallery.",
+      "Three kinds of piece: cube, ramp and wedge. Ramps and wedges cast triangles, stone pillars are already there.",
+      "A room in 3D that you turn a quarter at a time to see every side.",
+      "A proven best score for every level: the fewest pieces earn three stars.",
+      "No luck, no time pressure: what you build throws exactly that shadow, every time."
+    ],
+    "stepsTitle": "Build, turn, match the shadows",
+    "steps": [
+      [
+        "Build",
+        "Tap a floor tile or the side of a cube and a new piece stands there. A tap turns a ramp or a wedge, a long press takes a piece away."
+      ],
+      [
+        "Turn",
+        "Swipe across the room or use the arrows to turn it a quarter at a time and see what stands at the back."
+      ],
+      [
+        "Match the shadows",
+        "The panels show what fits: grey is still missing, green fits, red is too much. Match every shadow with the fewest pieces for three stars."
+      ]
+    ],
+    "worldsTitle": "16 worlds of 25 levels each",
+    "worlds": [
+      [
+        "Cube",
+        "One shadow"
+      ],
+      [
+        "Two walls",
+        "Front and side"
+      ],
+      [
+        "Floor",
+        "From above too"
+      ],
+      [
+        "Ramps",
+        "Sloping up"
+      ],
+      [
+        "Wedges",
+        "Triangles from above"
+      ],
+      [
+        "Roofs",
+        "Everything slopes"
+      ],
+      [
+        "Gaps",
+        "Light falls through"
+      ],
+      [
+        "Towers",
+        "Reaching up"
+      ],
+      [
+        "Bridges",
+        "Above the floor"
+      ],
+      [
+        "Stairs",
+        "Steps into thin air"
+      ],
+      [
+        "Pillars",
+        "Stone is already there"
+      ],
+      [
+        "Figures",
+        "Familiar shapes"
+      ],
+      [
+        "Arches",
+        "Windows in the shadow"
+      ],
+      [
+        "Sculpture",
+        "Work of art"
+      ],
+      [
+        "City",
+        "Roofs over roofs"
+      ],
+      [
+        "Gallery",
+        "The great exhibition"
+      ]
+    ],
+    "gallery": [
+      "Build the sculpture. Turn the light. – Every shadow has to fit exactly",
+      "Cubes, ramps, wedges – Half cubes cast sloping shadows",
+      "Turn the room – Every quarter turn shows a new side",
+      "Shadows make pictures – A house, a castle, a church and more",
+      "Fewer pieces, three stars – Match the best score for three stars",
+      "400 levels – 16 worlds, from one cube to the gallery",
+      "Make the room yours – 12 designs and 6 music tracks"
+    ],
+    "phonesAlt": [
+      "SCHATTEN home screen: the S C H A T T E N wordmark, each letter casting its shadow, the Arches world with 24 of 25 levels solved and the Keep building button.",
+      "SCHATTEN board, level 7 of the City world: the sculpture of cubes, ramps and wedges stands finished in the room, every shadow fits and glows green on the walls; above, the three panels.",
+      "SCHATTEN world overview with illustrated rooms: Pillars, Figures, Arches, Sculpture, City and Gallery."
+    ]
+  }
+}

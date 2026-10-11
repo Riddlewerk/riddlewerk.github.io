@@ -61,6 +61,8 @@
   --rose-rgb: 251, 113, 133;
   --indigo: #818cf8;
   --indigo-rgb: 129, 140, 248;
+  --violet: #a78bfa;
+  --violet-rgb: 167, 139, 250;
 
   --accent: var(--amber);
   --accent-rgb: var(--amber-rgb);
@@ -847,6 +849,11 @@ strong {
 .game--spiegel {
   --accent: var(--rose);
   --accent-rgb: var(--rose-rgb);
+}
+
+.game--schatten {
+  --accent: var(--violet);
+  --accent-rgb: var(--violet-rgb);
 }
 
 /* Every second game mirrors its layout, so a third or fourth game is one more <article>. */
@@ -2004,6 +2011,18 @@ details summary {
 
 .dhero .game__title .keys {
   --s: clamp(42px, 5vw, 60px);
+}
+
+/* A name of eight letters sets its caps a little smaller beside the icon, so the row fits its
+   column next to the pictures; phones have their own size above. */
+@media (min-width: 600px) {
+  .game__title .keys:has(.key:nth-child(8)) {
+    --s: clamp(34px, 3.4vw, 44px);
+  }
+
+  .dhero .game__title .keys:has(.key:nth-child(8)) {
+    --s: clamp(36px, 3.7vw, 48px);
+  }
 }
 
 .dhero .game__tagline {

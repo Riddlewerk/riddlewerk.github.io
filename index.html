@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <title>Riddlewerk – kleine, ruhige Rätselspiele</title>
-  <meta name="description" content="Riddlewerk ist ein kleines Indie-Studio für Rätselspiele auf dem Handy. Unsere Spiele: DREH, ein Worträtsel, ZEHN, ein Zahlenrätsel, WERK, ein Fließband-Rätsel, GRIFF, ein Roboterarm-Rätsel, STROM, ein Schaltungs-Rätsel, GLEIS, ein Eisenbahn-Rätsel, und SPIEGEL, ein Licht-Rätsel.">
+  <meta name="description" content="Riddlewerk ist ein kleines Indie-Studio für Rätselspiele auf dem Handy. Unsere Spiele: DREH, ein Worträtsel, ZEHN, ein Zahlenrätsel, WERK, ein Fließband-Rätsel, GRIFF, ein Roboterarm-Rätsel, STROM, ein Schaltungs-Rätsel, GLEIS, ein Eisenbahn-Rätsel, SPIEGEL, ein Licht-Rätsel, und SCHATTEN, ein Bau-Rätsel in 3D.">
   <meta name="theme-color" content="#080D16">
   <meta name="color-scheme" content="dark">
   <link rel="canonical" href="https://riddlewerk.com/">
@@ -19,7 +19,7 @@
   <meta property="og:locale" content="de_DE">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:title" content="Riddlewerk – kleine, ruhige Rätselspiele">
-  <meta property="og:description" content="Ein Indie-Studio für Rätselspiele, in denen die Reihenfolge der Züge das Rätsel ist. Bald: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS und SPIEGEL.">
+  <meta property="og:description" content="Ein Indie-Studio für Rätselspiele, in denen die Reihenfolge der Züge das Rätsel ist. Bald: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS, SPIEGEL und SCHATTEN.">
   <meta property="og:url" content="https://riddlewerk.com/">
   <meta property="og:image" content="https://riddlewerk.com/assets/img/og-image.png">
   <meta property="og:image:width" content="1200">
@@ -27,7 +27,7 @@
   <meta property="og:image:alt" content="Der Riddlewerk-Schriftzug aus Spielsteinen, darunter die Spiele DREH und ZEHN.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Riddlewerk – kleine, ruhige Rätselspiele">
-  <meta name="twitter:description" content="Ein Indie-Studio für Rätselspiele, in denen die Reihenfolge der Züge das Rätsel ist. Bald: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS und SPIEGEL.">
+  <meta name="twitter:description" content="Ein Indie-Studio für Rätselspiele, in denen die Reihenfolge der Züge das Rätsel ist. Bald: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS, SPIEGEL und SCHATTEN.">
   <meta name="twitter:image" content="https://riddlewerk.com/assets/img/og-image.png">
 
   <link rel="icon" href="favicon.ico" sizes="32x32">
@@ -45,6 +45,8 @@
   <script src="assets/js/flair-spiegel.js" defer></script>
   <link rel="stylesheet" href="assets/css/flair-gleis.css">
   <script src="assets/js/flair-gleis.js" defer></script>
+  <link rel="stylesheet" href="assets/css/flair-schatten.css">
+  <script src="assets/js/flair-schatten.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
@@ -84,7 +86,7 @@
           </span>
         </h1>
         <p class="hero__lead">Kleine, ruhige Rätselspiele, in denen die Reihenfolge der Züge das Rätsel ist.</p>
-        <p class="hero__sub">Wir sind ein kleines Indie-Studio. Unsere Spiele: DREH, ein Worträtsel, ZEHN, ein Zahlenrätsel, WERK, ein Fließband-Rätsel, GRIFF, ein Roboterarm-Rätsel, STROM, ein Schaltungs-Rätsel, GLEIS, ein Eisenbahn-Rätsel, und SPIEGEL, ein Licht-Rätsel – bald für Android und iPhone.</p>
+        <p class="hero__sub">Wir sind ein kleines Indie-Studio. Unsere Spiele: DREH, ein Worträtsel, ZEHN, ein Zahlenrätsel, WERK, ein Fließband-Rätsel, GRIFF, ein Roboterarm-Rätsel, STROM, ein Schaltungs-Rätsel, GLEIS, ein Eisenbahn-Rätsel, SPIEGEL, ein Licht-Rätsel, und SCHATTEN, ein Bau-Rätsel in 3D – bald für Android und iPhone.</p>
         <div class="hero__actions">
           <a class="btn" href="#spiele">Zu den Spielen
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
@@ -99,6 +101,7 @@
           <li><a class="chip" href="#strom"><img src="assets/img/strom-icon-192.webp" width="40" height="40" alt=""><span>STROM<small>Schaltungs-Rätsel</small></span></a></li>
           <li><a class="chip" href="#gleis"><img src="assets/img/gleis-icon-192.webp" width="40" height="40" alt=""><span>GLEIS<small>Eisenbahn-Rätsel</small></span></a></li>
           <li><a class="chip" href="#spiegel"><img src="assets/img/spiegel-icon-192.webp" width="40" height="40" alt=""><span>SPIEGEL<small>Licht-Rätsel</small></span></a></li>
+          <li><a class="chip" href="#schatten"><img src="assets/img/schatten-icon-192.webp" width="40" height="40" alt=""><span>SCHATTEN<small>Bau-Rätsel in 3D</small></span></a></li>
         </ul>
       </div>
     </section>
@@ -112,7 +115,7 @@
         <div class="section-head">
           <p class="eyebrow">Unsere Spiele</p>
           <h2 id="spiele-title">Ein&nbsp;Start. Ein&nbsp;Ziel. Und der&nbsp;Weg dazwischen.</h2>
-          <p>Jedes Level zeigt dir, wo es losgeht und wo es hingehen soll. In DREH und ZEHN spielst du dafür Karten, und jede Karte nur so oft, wie sie es erlaubt. In WERK baust du eine Maschine, in GRIFF programmierst du Roboterarme, in STROM verdrahtest du eine Schaltung, in GLEIS legst du Gleise für Züge mit Fahrplan, in SPIEGEL lenkst du Licht mit Spiegeln. Wie du ankommst, ist das ganze Rätsel.</p>
+          <p>Jedes Level zeigt dir, wo es losgeht und wo es hingehen soll. In DREH und ZEHN spielst du dafür Karten, und jede Karte nur so oft, wie sie es erlaubt. In WERK baust du eine Maschine, in GRIFF programmierst du Roboterarme, in STROM verdrahtest du eine Schaltung, in GLEIS legst du Gleise für Züge mit Fahrplan, in SPIEGEL lenkst du Licht mit Spiegeln, und in SCHATTEN baust du eine Skulptur, deren Schatten genau passen müssen. Wie du ankommst, ist das ganze Rätsel.</p>
         </div>
 
         <div class="games">
@@ -487,6 +490,59 @@
               <p class="shot-caption">Screenshots aus der aktuellen Version von SPIEGEL</p>
             </div>
           </article>
+          <!-- SCHATTEN -->
+          <article class="game game--schatten" id="schatten" aria-labelledby="schatten-title">
+            <div class="game__intro">
+              <div class="game__head">
+                <img class="game__icon" src="assets/img/schatten-icon-192.webp" width="64" height="64" alt="App-Symbol von SCHATTEN">
+                <div>
+                  <p class="game__genre">Bau-Rätsel in 3D</p>
+                  <h3 class="game__title" id="schatten-title">
+                    <span class="sr-only">SCHATTEN</span>
+                    <span class="keys keys--game" aria-hidden="true"><span class="key">S</span><span class="key">C</span><span class="key">H</span><span class="key">A</span><span class="key">T</span><span class="key">T</span><span class="key">E</span><span class="key">N</span></span>
+                  </h3>
+                </div>
+              </div>
+              <p class="game__tagline"><q>„Bau die Skulptur. Dreh das Licht. Jeder Schatten muss passen.“</q></p>
+              <div class="game__text">
+                <p>In einem kleinen Raum, den du drehen kannst, baust du eine Skulptur aus Würfeln, Rampen und Keilen. Drei Lampen werfen ihre Schatten an die Wände und auf den Boden, und jeder muss genau dem Bild auf seiner Tafel gleichen. Rampen und Keile werfen Dreiecke, und manchmal stehen schon Steinsäulen im Raum.</p>
+              </div>
+            </div>
+            <div class="game__details">
+              <ul class="stats" aria-label="SCHATTEN in Zahlen">
+                <li class="stat"><b>16</b><span>Welten</span></li>
+                <li class="stat"><b>400</b><span>Level</span></li>
+                <li class="stat"><b>3</b><span>Lampen</span></li>
+                <li class="stat"><b>0</b><span>Zeitdruck</span></li>
+              </ul>
+              <ul class="features">
+                <li>16 Welten, vom ersten Würfel über Rampen, Dächer, Türme und Brücken bis zur Galerie.</li>
+                <li>Drei Bauteile: Würfel, Rampe und Keil. Rampen und Keile werfen Dreiecke, Steinsäulen stehen schon da.</li>
+                <li>Ein Raum in 3D, den du in Vierteldrehungen drehst, um jede Seite zu sehen.</li>
+                <li>Ein bewiesener Bestwert pro Level: Mit den wenigsten Teilen gibt es drei Sterne.</li>
+                <li>Kein Glück, kein Zeitdruck: Was du baust, wirft genau diesen Schatten, jedes Mal.</li>
+              </ul>
+              <ul class="availability" aria-label="Verfügbarkeit">
+                <li>Bald bei Google Play</li>
+                <li>Bald im App Store</li>
+              </ul>
+              <a class="game__more" href="schatten/">Mehr zu SCHATTEN<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
+            <div class="game__visual">
+              <div class="phones">
+                <figure class="phone phone--side phone--left">
+                  <img src="assets/img/schatten-home-de-320.webp" srcset="assets/img/schatten-home-de-320.webp 320w, assets/img/schatten-home-de-640.webp 640w" sizes="(max-width: 599px) 150px, 190px" width="320" height="692" loading="lazy" decoding="async" alt="SCHATTEN-Startbildschirm: Schriftzug S C H A T T E N, jeder Buchstabe mit seinem Schatten, die Welt „Bögen“ mit 24 von 25 gelösten Leveln und der Knopf „Weiterbauen“.">
+                </figure>
+                <figure class="phone">
+                  <img src="assets/img/schatten-board-de-320.webp" srcset="assets/img/schatten-board-de-320.webp 320w, assets/img/schatten-board-de-640.webp 640w" sizes="(max-width: 599px) 184px, 236px" width="320" height="692" loading="lazy" decoding="async" alt="SCHATTEN-Spielfeld, Level 7 der Welt „Stadt“: Die Skulptur aus Würfeln, Rampen und Keilen steht fertig im Raum, jeder Schatten passt und leuchtet grün an den Wänden; oben die drei Tafeln.">
+                </figure>
+                <figure class="phone phone--side phone--right">
+                  <img src="assets/img/schatten-worlds-de-320.webp" srcset="assets/img/schatten-worlds-de-320.webp 320w, assets/img/schatten-worlds-de-640.webp 640w" sizes="(max-width: 599px) 150px, 190px" width="320" height="692" loading="lazy" decoding="async" alt="SCHATTEN-Weltenübersicht mit gezeichneten Räumen: Säulen, Figuren, Bögen, Skulptur, Stadt und Galerie.">
+                </figure>
+              </div>
+              <p class="shot-caption">Screenshots aus der aktuellen Version von SCHATTEN</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -500,7 +556,7 @@
             <h2 id="studio-title">Die Reihenfolge ist das Rätsel.</h2>
             <p>Riddlewerk ist ein kleines Indie-Studio für Rätselspiele auf dem Handy. Wir bauen kleine, ruhige Spiele, die in eine Pause passen und trotzdem einen echten Aha-Moment haben.</p>
             <p>Alle folgen derselben Idee: Du siehst Start und Ziel und hältst alle Karten in der Hand. Nichts ist versteckt, nichts hängt vom Glück ab. Ob du ankommst, entscheidet allein die Reihenfolge, in der du spielst.</p>
-            <p>DREH macht das mit Wörtern, ZEHN mit Zahlen. In WERK baust du die Reihenfolge selbst: als Maschine aus Bändern und Weichen, die Takt für Takt abläuft. GRIFF macht daraus Programme für Roboterarme, STROM eine Schaltung, durch die der Strom Schritt für Schritt fließt, GLEIS ein Gleisnetz, auf dem jeder Zug nach seinem Fahrplan ankommen muss. SPIEGEL lenkt Licht über Spiegel und Prismen, bis jedes Ziel in seiner Farbe leuchtet.</p>
+            <p>DREH macht das mit Wörtern, ZEHN mit Zahlen. In WERK baust du die Reihenfolge selbst: als Maschine aus Bändern und Weichen, die Takt für Takt abläuft. GRIFF macht daraus Programme für Roboterarme, STROM eine Schaltung, durch die der Strom Schritt für Schritt fließt, GLEIS ein Gleisnetz, auf dem jeder Zug nach seinem Fahrplan ankommen muss. SPIEGEL lenkt Licht über Spiegel und Prismen, bis jedes Ziel in seiner Farbe leuchtet. SCHATTEN geht in die dritte Dimension: eine Skulptur aus Würfeln, deren Schatten von drei Seiten genau passen müssen.</p>
           </div>
 
           <div class="demo" id="probieren" data-demo data-start="laus" data-target="wal" aria-labelledby="demo-title">
@@ -621,6 +677,7 @@
             <li><a href="strom/">STROM</a></li>
             <li><a href="gleis/">GLEIS</a></li>
             <li><a href="spiegel/">SPIEGEL</a></li>
+            <li><a href="schatten/">SCHATTEN</a></li>
           </ul>
         </nav>
         <nav class="footer-col" aria-labelledby="f-studio">
