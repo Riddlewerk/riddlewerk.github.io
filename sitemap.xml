@@ -2,26 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://riddlewerk.com/</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/"/>
   </url>
   <url>
     <loc>https://riddlewerk.com/en/</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/"/>
   </url>
   <url>
+    <loc>https://riddlewerk.com/dreh/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/dreh/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/dreh/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/en/dreh/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/dreh/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/dreh/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/zehn/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/zehn/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/zehn/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/en/zehn/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/zehn/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/zehn/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/werk/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/werk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/werk/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/en/werk/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/werk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/werk/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/griff/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/griff/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/griff/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/en/griff/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/griff/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/griff/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/strom/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/strom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/strom/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/en/strom/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/strom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/strom/"/>
+  </url>
+  <url>
     <loc>https://riddlewerk.com/privacy.html</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-10-11</lastmod>
   </url>
   <url>
     <loc>https://riddlewerk.com/impressum.html</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-10-11</lastmod>
   </url>
   <url>
     <loc>https://riddlewerk.com/credits.html</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-10-11</lastmod>
   </url>
 </urlset>

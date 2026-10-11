@@ -1,0 +1,317 @@
+{
+  "id": "zehn",
+  "order": 2,
+  "letters": "ZEHN",
+  "flair": null,
+  "media": {
+    "video": false,
+    "og": false,
+    "gallery": 0,
+    "phones": null,
+    "art": "<div class=\"zehn-art\" role=\"img\" aria-label=\"{label}\">\r\n                <span class=\"zehn-art__back\"></span>\r\n                <span class=\"zehn-art__front\"></span>\r\n                <span class=\"key k1\">×</span>\r\n                <span class=\"key k2 is-white\">7</span>\r\n                <span class=\"key k3\">√</span>\r\n                <span class=\"key k4 is-white\">x²</span>\r\n                <span class=\"key k5\">÷</span>\r\n                <span class=\"key k6 is-white\">%</span>\r\n              </div>"
+  },
+  "de": {
+    "name": "ZEHN",
+    "genre": "Zahlenrätsel",
+    "title": "ZEHN – Zahlenrätsel für Android und iPhone | Riddlewerk",
+    "description": "ZEHN ist DREHs Zwilling mit Zahlen: eine Startzahl, eine Zielzahl und eine Hand voll Rechenkarten. 1 200 Level in 24 Welten, von Plus und Minus bis zu Winkelfunktionen.",
+    "tagline": "Eine Zahl. Ein Ziel. Die Reihenfolge entscheidet.",
+    "lead": [
+      "DREHs Zwilling mit Zahlen statt Wörtern: eine Startzahl, eine Zielzahl, eine Hand voll Rechenkarten – und unterwegs echte Mathematik."
+    ],
+    "stats": [
+      [
+        "24",
+        "Welten"
+      ],
+      [
+        "1 200",
+        "Level"
+      ],
+      [
+        "40",
+        "Karten"
+      ],
+      [
+        "2",
+        "Spielarten"
+      ]
+    ],
+    "features": [
+      "Ein Kurs durch die Mathematik: Plus und Minus, Mal und Geteilt, Quadrat und Wurzel, Potenzen, Brüche, Prozent, Logarithmen und Winkelfunktionen. Die letzten fünf Welten mischen alles.",
+      "29 Rechenkarten und 11 Karten aus DREH, die auf Ziffern wirken: 120 umgedreht ist 21.",
+      "Exakt gerechnet: Jede Zahl ist ein gekürzter Bruch, nie eine gerundete Kommazahl. Geht ein Ergebnis nicht auf, sagt dir die Karte, warum.",
+      "Dieselben 1 200 Level auf Deutsch und auf Englisch, mit gemessener, stetig steigender Schwierigkeit.",
+      "Leicht oder Schwer, zwölf Designs und sechs Musikstücke – wie in DREH."
+    ],
+    "stepsTitle": "Von der Startzahl zur Zielzahl",
+    "steps": [
+      [
+        "Ziel ansehen",
+        "Oben steht die Zielzahl, darunter deine Startzahl. Dazwischen liegen ein paar Rechenkarten."
+      ],
+      [
+        "Rechnen",
+        "Jede Karte rechnet: plus 3, mal 2, Wurzel ziehen, Ziffern umdrehen. Jede Karte nur so oft, wie sie es erlaubt."
+      ],
+      [
+        "Reihenfolge finden",
+        "Erst verdoppeln und dann plus 3 ist etwas anderes als umgekehrt. Mit so wenigen Zügen wie die beste Lösung gibt es drei Sterne."
+      ]
+    ],
+    "worldsTitle": "24 Welten mit je 50 Leveln",
+    "worlds": [
+      [
+        "Plusminus",
+        "Rauf und runter"
+      ],
+      [
+        "Mal",
+        "Doppelt und dreifach"
+      ],
+      [
+        "Geteilt",
+        "Geht es glatt auf?"
+      ],
+      [
+        "Spiegel",
+        "Von hinten gelesen"
+      ],
+      [
+        "Drehung",
+        "Alles dreht sich"
+      ],
+      [
+        "Anbau",
+        "Vorne dran, hinten weg"
+      ],
+      [
+        "Echo",
+        "Doppelt hält besser"
+      ],
+      [
+        "Quadrat",
+        "Hoch zwei und zurück"
+      ],
+      [
+        "Potenzen",
+        "Hoch hinaus"
+      ],
+      [
+        "Unter Null",
+        "Minus mal Minus"
+      ],
+      [
+        "Teiler",
+        "Was bleibt übrig?"
+      ],
+      [
+        "Zauberei",
+        "Aus jeder 3 wird eine 8"
+      ],
+      [
+        "Fakultät",
+        "Eins mal zwei mal drei"
+      ],
+      [
+        "Brüche",
+        "Halb und halb"
+      ],
+      [
+        "Komma",
+        "Nach dem Komma"
+      ],
+      [
+        "Prozent",
+        "Hundert Teile"
+      ],
+      [
+        "Mittelwert",
+        "Genau dazwischen"
+      ],
+      [
+        "Log",
+        "Wie oft hoch?"
+      ],
+      [
+        "Winkel",
+        "sin, cos und tan"
+      ],
+      [
+        "Labyrinth",
+        "Viele Wege, ein Ziel"
+      ],
+      [
+        "Turm",
+        "Stufe um Stufe"
+      ],
+      [
+        "Galaxie",
+        "Alles auf einmal"
+      ],
+      [
+        "Kristall",
+        "Klar und scharf"
+      ],
+      [
+        "Unendlich",
+        "Bis zur letzten Ziffer"
+      ]
+    ],
+    "gallery": [],
+    "phonesAlt": [],
+    "artLabel": "Illustration im Stil des ZEHN-Symbols: ein dunkler Spielstein, davor ein blauer, um 22 Grad gedrehter Stein mit einem Plus, umgeben von Tasten mit Rechenzeichen."
+  },
+  "en": {
+    "name": "ZEHN",
+    "genre": "Number puzzle",
+    "title": "ZEHN – a number puzzle for Android and iPhone | Riddlewerk",
+    "description": "ZEHN is DREH’s twin with numbers: a starting number, a target number and a handful of maths cards. 1,200 levels in 24 worlds, from plus and minus to trigonometry.",
+    "tagline": "One number. One target. Order decides.",
+    "lead": [
+      "DREH’s twin, with numbers instead of words: a starting number, a target number, a handful of maths cards – and real maths along the way."
+    ],
+    "stats": [
+      [
+        "24",
+        "Worlds"
+      ],
+      [
+        "1,200",
+        "Levels"
+      ],
+      [
+        "40",
+        "Cards"
+      ],
+      [
+        "2",
+        "Play modes"
+      ]
+    ],
+    "features": [
+      "A course through maths: plus and minus, times and divide, squares and roots, powers, fractions, percentages, logarithms and trigonometry. The last five worlds mix it all.",
+      "29 maths cards plus 11 cards from DREH that work on digits: 120 reversed is 21.",
+      "Exact maths: every number is a reduced fraction, never a rounded decimal. If a result does not work out, the card tells you why.",
+      "The same 1,200 levels in English and in German, with measured, steadily rising difficulty.",
+      "Easy or Hard, twelve designs and six music tracks – just like DREH."
+    ],
+    "stepsTitle": "From starting number to target",
+    "steps": [
+      [
+        "Look at the target",
+        "The target number is at the top, your starting number below it, and a few maths cards in between."
+      ],
+      [
+        "Do the maths",
+        "Each card calculates: plus 3, times 2, square root, reverse the digits. Each card only as often as it allows."
+      ],
+      [
+        "Find the order",
+        "Doubling and then adding 3 is not the same as the other way round. Match the best solution’s move count for three stars."
+      ]
+    ],
+    "worldsTitle": "24 worlds of 50 levels each",
+    "worlds": [
+      [
+        "Plus/minus",
+        "Up and down"
+      ],
+      [
+        "Times",
+        "Double and triple"
+      ],
+      [
+        "Divided",
+        "Does it come out even?"
+      ],
+      [
+        "Mirror",
+        "Read it backwards"
+      ],
+      [
+        "Turn",
+        "Everything turns"
+      ],
+      [
+        "Add-on",
+        "On at the front, off at the end"
+      ],
+      [
+        "Echo",
+        "Say it twice"
+      ],
+      [
+        "Square",
+        "Squared and back"
+      ],
+      [
+        "Powers",
+        "Higher and higher"
+      ],
+      [
+        "Below zero",
+        "Minus times minus"
+      ],
+      [
+        "Divisors",
+        "What is left over?"
+      ],
+      [
+        "Magic",
+        "Every 3 becomes an 8"
+      ],
+      [
+        "Factorial",
+        "One times two times three"
+      ],
+      [
+        "Fractions",
+        "Half and half"
+      ],
+      [
+        "Decimals",
+        "After the point"
+      ],
+      [
+        "Percent",
+        "A hundred parts"
+      ],
+      [
+        "Average",
+        "Right in between"
+      ],
+      [
+        "Log",
+        "To the what?"
+      ],
+      [
+        "Angles",
+        "sin, cos and tan"
+      ],
+      [
+        "Maze",
+        "Many ways, one target"
+      ],
+      [
+        "Tower",
+        "Step by step"
+      ],
+      [
+        "Galaxy",
+        "Everything at once"
+      ],
+      [
+        "Crystal",
+        "Clear and sharp"
+      ],
+      [
+        "Infinity",
+        "To the last digit"
+      ]
+    ],
+    "gallery": [],
+    "phonesAlt": [],
+    "artLabel": "Illustration in the style of the ZEHN icon: a dark tile with a blue tile in front, turned by 22 degrees and marked with a plus, surrounded by keys with maths symbols."
+  }
+}

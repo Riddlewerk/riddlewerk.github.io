@@ -1,0 +1,276 @@
+{
+  "id": "dreh",
+  "order": 1,
+  "letters": "DREH",
+  "flair": null,
+  "media": {
+    "video": true,
+    "og": true,
+    "gallery": 6,
+    "phones": [
+      "home",
+      "board",
+      "worlds"
+    ]
+  },
+  "de": {
+    "name": "DREH",
+    "genre": "Worträtsel",
+    "title": "DREH – Worträtsel für Android und iPhone | Riddlewerk",
+    "description": "DREH ist ein ruhiges Worträtsel: Verwandle ein Startwort Zug um Zug ins Zielwort. 640 Level je Sprache in 16 Welten, jedes vom Löser geprüft.",
+    "tagline": "Ein Wort. Ein Ziel. Die Reihenfolge entscheidet.",
+    "lead": [
+      "Verwandle ein Startwort Zug um Zug in das Zielwort – mit Karten wie „umdrehen“, „letztes weg“ oder „hinten M“. So wird aus einer LAUS ein WAL und aus einem OTTER eine MOTTE."
+    ],
+    "stats": [
+      [
+        "16",
+        "Welten"
+      ],
+      [
+        "640",
+        "Level je Sprache"
+      ],
+      [
+        "11",
+        "Kartenarten"
+      ],
+      [
+        "2",
+        "Spielarten"
+      ]
+    ],
+    "features": [
+      "Sechzehn Themenwelten mit je 40 Leveln – von Tiere, Natur und Küche bis Fantasie und Weltall.",
+      "Eigene Levelkataloge auf Deutsch und auf Englisch.",
+      "Leicht: Jeder Zug passiert sofort. Schwer: Du planst alle Züge vorher und startest dann.",
+      "Jedes Level ist vom Löser bewiesen, die kürzeste Lösung ist bekannt – schaffst du sie auch?",
+      "Zwölf Designs und sechs Musikstücke, freizuschalten mit Münzen, die du beim Lösen verdienst."
+    ],
+    "stepsTitle": "Vom Startwort zum Zielwort",
+    "steps": [
+      [
+        "Ziel ansehen",
+        "Oben steht das Zielwort, darunter dein Startwort. Aus einer LAUS soll ein WAL werden."
+      ],
+      [
+        "Karten spielen",
+        "Jede Karte verändert das Wort: umdrehen, letztes weg, alle U zu W. Jede Karte nur so oft, wie sie es erlaubt."
+      ],
+      [
+        "Reihenfolge finden",
+        "Dieselben Karten in anderer Reihenfolge ergeben ein anderes Wort. Mit so wenigen Zügen wie die beste Lösung gibt es drei Sterne."
+      ]
+    ],
+    "worldsTitle": "16 Welten mit je 40 Leveln",
+    "worlds": [
+      [
+        "Tiere",
+        "Von der Ameise bis zum Zebra"
+      ],
+      [
+        "Natur",
+        "Wald, Wiese und Wurzel"
+      ],
+      [
+        "Küche",
+        "Frisch aus dem Topf"
+      ],
+      [
+        "Meer",
+        "Wellen, Wale und Wracks"
+      ],
+      [
+        "Zuhause",
+        "Vom Keller bis zum Dach"
+      ],
+      [
+        "Stadt",
+        "Gassen, Türme, Trubel"
+      ],
+      [
+        "Musik",
+        "Jeder Buchstabe ein Ton"
+      ],
+      [
+        "Wetter",
+        "Sturm im Wortglas"
+      ],
+      [
+        "Mode",
+        "Knopf, Kragen, Kleid"
+      ],
+      [
+        "Sport",
+        "Auf die Plätze, fertig, dreh!"
+      ],
+      [
+        "Schule",
+        "Kreide, Heft und Pause"
+      ],
+      [
+        "Körper",
+        "Von Kopf bis Zeh"
+      ],
+      [
+        "Reisen",
+        "Koffer packen, los geht’s"
+      ],
+      [
+        "Labor",
+        "Atome, Magnete, Formeln"
+      ],
+      [
+        "Fantasie",
+        "Drachen, Hexen, Zauberei"
+      ],
+      [
+        "Weltall",
+        "Die letzte Grenze"
+      ]
+    ],
+    "gallery": [
+      "Ein Wort. Ein Ziel. – Die Reihenfolge entscheidet.",
+      "Karten verwandeln Wörter – Umdrehen, tauschen, Vokal weiter …",
+      "Finde den kürzesten Weg – Drei Sterne für die optimale Lösung",
+      "16 Welten, 640 Level – Von den Tieren bis ins Weltall",
+      "Leicht oder Schwer? – Sofort spielen oder alles vorausplanen",
+      "Mach es zu deinem Spiel – 12 Designs und 6 Musikstücke"
+    ],
+    "phonesAlt": [
+      "DREH-Startbildschirm: Schriftzug D R E H, die Welt „Tiere“ mit 39 von 40 gelösten Leveln und der Knopf „Weiterspielen“.",
+      "DREH-Spielbrett, Level 40 der Welt „Tiere“: Aus OTTER soll MOTTE werden, mit den Karten „hinten M“, „hinten W“, „umdrehen“ und „letztes weg“.",
+      "DREH-Weltenübersicht mit gezeichneten Welten: Tiere, Natur, Küche, Meer, Zuhause und Stadt."
+    ]
+  },
+  "en": {
+    "name": "DREH",
+    "genre": "Word puzzle",
+    "title": "DREH – a word puzzle for Android and iPhone | Riddlewerk",
+    "description": "DREH is a calm word puzzle: turn a starting word into the target word, one move at a time. 640 levels per language in 16 worlds, each checked by a solver.",
+    "tagline": "One word. One target. Order decides.",
+    "lead": [
+      "Turn a starting word into the target word, one move at a time – with cards like “reverse”, “drop last” or “W first”. That is how a WORM becomes a COW and SANE becomes a SWAN."
+    ],
+    "stats": [
+      [
+        "16",
+        "Worlds"
+      ],
+      [
+        "640",
+        "Levels per language"
+      ],
+      [
+        "11",
+        "Card types"
+      ],
+      [
+        "2",
+        "Play modes"
+      ]
+    ],
+    "features": [
+      "Sixteen themed worlds of 40 levels each – from Animals, Nature and Kitchen to Fantasy and Space.",
+      "Separate level catalogues in English and in German.",
+      "Easy: every move happens at once. Hard: you plan all your moves first, then run the plan.",
+      "Every level is proven solvable by the solver, and the shortest solution is known – can you match it?",
+      "Twelve designs and six music tracks, unlocked with coins you earn by solving levels."
+    ],
+    "stepsTitle": "From starting word to target",
+    "steps": [
+      [
+        "Look at the target",
+        "The target word is at the top, your starting word below it. A WORM is to become a COW."
+      ],
+      [
+        "Play your cards",
+        "Each card changes the word: reverse it, drop the last letter, put a W first. Each card only as often as it allows."
+      ],
+      [
+        "Find the order",
+        "The same cards in a different order make a different word. Match the best solution’s move count for three stars."
+      ]
+    ],
+    "worldsTitle": "16 worlds of 40 levels each",
+    "worlds": [
+      [
+        "Animals",
+        "From ant to zebra"
+      ],
+      [
+        "Nature",
+        "Woods, meadows and roots"
+      ],
+      [
+        "Kitchen",
+        "Fresh from the pot"
+      ],
+      [
+        "Ocean",
+        "Waves, whales and wrecks"
+      ],
+      [
+        "Home",
+        "From cellar to rooftop"
+      ],
+      [
+        "City",
+        "Streets, towers, bustle"
+      ],
+      [
+        "Music",
+        "Every letter a note"
+      ],
+      [
+        "Weather",
+        "A storm in a word"
+      ],
+      [
+        "Fashion",
+        "Buttons, collars, catwalks"
+      ],
+      [
+        "Sports",
+        "Ready, set, turn!"
+      ],
+      [
+        "School",
+        "Chalk, books and break time"
+      ],
+      [
+        "Body",
+        "From head to toe"
+      ],
+      [
+        "Travel",
+        "Pack your bags"
+      ],
+      [
+        "Lab",
+        "Atoms, magnets, formulas"
+      ],
+      [
+        "Fantasy",
+        "Dragons, witches, magic"
+      ],
+      [
+        "Space",
+        "The final frontier"
+      ]
+    ],
+    "gallery": [
+      "One word. One target. – Order decides.",
+      "Cards transform words – Reverse, swap, vowel on …",
+      "Find the shortest path – Three stars for the optimal solution",
+      "16 worlds, 640 levels – From Animals to Space",
+      "Easy or Hard? – Play at once or plan every move",
+      "Make it yours – 12 designs and 6 music tracks"
+    ],
+    "phonesAlt": [
+      "DREH home screen: the D R E H wordmark, the Animals world with 39 of 40 levels solved and the Continue button.",
+      "DREH board, level 40 of the Animals world: turn SANE into SWAN with the cards “S first”, “W first”, “drop last” and “drop first”.",
+      "DREH world overview with illustrated worlds: Animals, Nature, Kitchen, Sea, Home and City."
+    ]
+  }
+}

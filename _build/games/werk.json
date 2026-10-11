@@ -1,0 +1,246 @@
+{
+  "id": "werk",
+  "order": 3,
+  "letters": "WERK",
+  "flair": null,
+  "media": {
+    "video": true,
+    "og": true,
+    "gallery": 7,
+    "phones": [
+      "home",
+      "board",
+      "worlds"
+    ]
+  },
+  "de": {
+    "name": "WERK",
+    "genre": "Fließband-Rätsel",
+    "title": "WERK – Fließband-Rätsel für Android und iPhone | Riddlewerk",
+    "description": "WERK ist ein ruhiges Fließband-Rätsel: Bau eine Maschine aus Bändern, Weichen und Pressen und schau zu, ob jede Kachel ankommt. 228 Level in 12 Hallen.",
+    "tagline": "Bau die Maschine. Drück Start. Schau zu.",
+    "lead": [
+      "Quellen schicken bunte Kacheln los, Ziele wollen ganz bestimmte. Dazwischen baust du die Maschine aus Bändern, Weichen, Färbern und Pressen. Dann drückst du Start und siehst Takt für Takt, ob alles ankommt."
+    ],
+    "stats": [
+      [
+        "12",
+        "Hallen"
+      ],
+      [
+        "228",
+        "Level"
+      ],
+      [
+        "11",
+        "Bauteile"
+      ],
+      [
+        "0",
+        "Zeitdruck"
+      ]
+    ],
+    "features": [
+      "Zwölf Hallen, vom ersten Band bis zum Meisterwerk mit allen Teilen auf dem größten Feld.",
+      "Elf Bauteile: Band, Brücke, Weiche, Sortierer, Färber, Presse, Tunnel, Schredder, Trenner, Sieb und Zähler.",
+      "Dazu grauer Ausschuss, den kein Ziel will, und Ziele, die ihre Kacheln in fester Reihenfolge verlangen.",
+      "Kein Zeitdruck: Du baust in Ruhe, die Maschine läuft erst, wenn du Start drückst.",
+      "Jedes Level hat eine geprüfte Referenzmaschine. Schaffst du es mit genauso wenigen Teilen?"
+    ],
+    "stepsTitle": "Bauen, starten, zuschauen",
+    "steps": [
+      [
+        "Aufgabe lesen",
+        "Quellen schicken bunte Kacheln los, Ziele wollen ganz bestimmte – manche sogar in fester Reihenfolge."
+      ],
+      [
+        "Maschine bauen",
+        "Leg Bänder, Weichen, Färber und Pressen aufs Feld. Kein Zeitdruck: Die Maschine läuft erst, wenn du Start drückst."
+      ],
+      [
+        "Start drücken",
+        "Takt für Takt wandern die Kacheln durch deine Maschine. Kommt alles an, ist das Level gelöst – mit wenigen Teilen gibt es drei Sterne."
+      ]
+    ],
+    "worldsTitle": "12 Hallen, vom ersten Band bis zum Meisterwerk",
+    "worlds": [
+      [
+        "Montage",
+        "Ein Band, ein Weg"
+      ],
+      [
+        "Kreuzung",
+        "Wege kreuzen sich"
+      ],
+      [
+        "Verteiler",
+        "Teilen und sortieren"
+      ],
+      [
+        "Lackiererei",
+        "Falsche Farbe?"
+      ],
+      [
+        "Presswerk",
+        "Zwei werden eins"
+      ],
+      [
+        "Großwerk",
+        "Alles zusammen"
+      ],
+      [
+        "Tunnelbau",
+        "Unten durch"
+      ],
+      [
+        "Recycling",
+        "Ausschuss raus"
+      ],
+      [
+        "Trennerei",
+        "Eins wird zwei"
+      ],
+      [
+        "Taktwerk",
+        "Zählen und verteilen"
+      ],
+      [
+        "Versand",
+        "Alles in der richtigen Reihenfolge"
+      ],
+      [
+        "Meisterwerk",
+        "Die ganze Fabrik"
+      ]
+    ],
+    "gallery": [
+      "Bau die Maschine. Drück Start. – Dann schau zu, wie sie läuft.",
+      "Erst planen, dann bauen – Band, Brücke, Tunnel, Zähler, Sieb …",
+      "Takt für Takt ans Ziel – Manche Ziele wollen eine Reihenfolge.",
+      "Färben, pressen, schreddern – Neue Farbe, Doppelkachel, Ausschuss raus",
+      "Weniger Teile, mehr Sterne – Drei Sterne mit den wenigsten Teilen",
+      "228 Level – 12 Welten, jede eine eigene Halle",
+      "Mach es zu deiner Fabrik – 12 Designs und 6 Musikstücke"
+    ],
+    "phonesAlt": [
+      "WERK-Startbildschirm: Schriftzug W E R K, die Halle „Verteiler“ mit 16 von 18 gelösten Leveln und der Knopf „Weiterbauen“.",
+      "WERK-Spielfeld, Level 12 der Halle „Tunnelbau“: Eine Maschine aus Bändern, Weichen und Tunneln läuft, gestrichelte Linien verbinden die Tunnelpaare.",
+      "WERK-Weltenübersicht mit gezeichneten Hallen: Tunnelbau, Recycling, Trennerei, Taktwerk, Versand und Meisterwerk."
+    ]
+  },
+  "en": {
+    "name": "WERK",
+    "genre": "Conveyor-belt puzzle",
+    "title": "WERK – a conveyor-belt puzzle for Android and iPhone | Riddlewerk",
+    "description": "WERK is a calm conveyor-belt puzzle: build a machine from belts, splitters and presses and watch whether every tile arrives. 228 levels in 12 halls.",
+    "tagline": "Build the machine. Press start. Watch it run.",
+    "lead": [
+      "Sources send out coloured tiles, goals want particular ones. In between you build the machine from belts, splitters, painters and presses. Then you press start and watch, tick by tick, whether everything arrives."
+    ],
+    "stats": [
+      [
+        "12",
+        "Halls"
+      ],
+      [
+        "228",
+        "Levels"
+      ],
+      [
+        "11",
+        "Parts"
+      ],
+      [
+        "0",
+        "Time pressure"
+      ]
+    ],
+    "features": [
+      "Twelve halls, from the first belt to Masterworks with every part on the biggest floor.",
+      "Eleven parts: belt, bridge, splitter, sorter, painter, press, tunnel, shredder, cutter, sieve and counter.",
+      "Plus grey scrap that no goal wants, and goals that want their tiles in a set order.",
+      "No time pressure: build at your own pace; the machine only runs when you press start.",
+      "Every level has a checked reference machine. Can you match it with as few parts?"
+    ],
+    "stepsTitle": "Build, start, watch",
+    "steps": [
+      [
+        "Read the task",
+        "Sources send out coloured tiles, goals want particular ones – some even in a set order."
+      ],
+      [
+        "Build the machine",
+        "Lay belts, splitters, painters and presses on the floor. No time pressure: the machine only runs when you press start."
+      ],
+      [
+        "Press start",
+        "Tick by tick the tiles travel through your machine. If everything arrives, the level is solved – few parts earn three stars."
+      ]
+    ],
+    "worldsTitle": "12 halls, from the first belt to Masterworks",
+    "worlds": [
+      [
+        "Assembly",
+        "One belt, one way"
+      ],
+      [
+        "Crossing",
+        "Paths cross"
+      ],
+      [
+        "Junction",
+        "Split and sort"
+      ],
+      [
+        "Paint Shop",
+        "Wrong colour?"
+      ],
+      [
+        "Press Shop",
+        "Two become one"
+      ],
+      [
+        "Big Factory",
+        "Everything at once"
+      ],
+      [
+        "Tunnels",
+        "Go under"
+      ],
+      [
+        "Recycling",
+        "Out with the scrap"
+      ],
+      [
+        "Cutting Shop",
+        "One becomes two"
+      ],
+      [
+        "Timing",
+        "Count and share"
+      ],
+      [
+        "Dispatch",
+        "Everything in the right order"
+      ],
+      [
+        "Masterworks",
+        "The whole factory"
+      ]
+    ],
+    "gallery": [
+      "Build the machine. Press start. – Then watch it run.",
+      "Plan it, then build it – Belt, bridge, tunnel, counter, sieve …",
+      "Tick by tick to the goal – Some goals want their tiles in order.",
+      "Paint, press, shred – New colours, double tiles, scrap out",
+      "Fewer parts, more stars – Three stars for the fewest parts",
+      "228 levels – 12 worlds, each a hall of its own",
+      "Make the factory yours – 12 designs and 6 music tracks"
+    ],
+    "phonesAlt": [
+      "WERK home screen: the W E R K wordmark, the Junction hall with 16 of 18 levels solved and the Keep building button.",
+      "WERK board, level 12 of the Tunnels hall: a machine of belts, splitters and tunnels running, with dashed lines joining each tunnel pair.",
+      "WERK world overview with illustrated halls: Tunnels, Recycling, Cutting Shop, Timing, Dispatch and Masterworks."
+    ]
+  }
+}

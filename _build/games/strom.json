@@ -1,0 +1,214 @@
+{
+  "id": "strom",
+  "order": 5,
+  "letters": "STROM",
+  "flair": null,
+  "media": {
+    "video": false,
+    "og": false,
+    "gallery": 0,
+    "phones": [
+      "home",
+      "board",
+      "worlds"
+    ]
+  },
+  "de": {
+    "name": "STROM",
+    "genre": "Schaltungs-Rätsel",
+    "title": "STROM – Schaltungs-Rätsel für Android und iPhone | Riddlewerk",
+    "description": "STROM ist ein ruhiges Schaltungs-Rätsel: Verdrahte Schalter und Lampen mit Gattern und sieh zu, wie der Strom Schritt für Schritt fließt. 160 Level in 10 Welten.",
+    "tagline": "Bau die Schaltung. Drück Prüfen. Lass es leuchten.",
+    "lead": [
+      "Schalter links, Lampen rechts, dazwischen baust du die Schaltung aus Leitungen und Gattern. Dann läuft die Prüfung Schritt für Schritt: Die Schalter wechseln, der Strom fließt sichtbar durch deine Leitungen, und jede Lampe muss genau dann leuchten, wenn sie soll."
+    ],
+    "stats": [
+      [
+        "10",
+        "Welten"
+      ],
+      [
+        "160",
+        "Level"
+      ],
+      [
+        "8",
+        "Bauteile"
+      ],
+      [
+        "0",
+        "Zeitdruck"
+      ]
+    ],
+    "features": [
+      "Zehn Welten, vom ersten Anschluss bis zum Rechenwerk.",
+      "Acht Bauteile: Leitung, Kreuzung, Verteiler, NICHT, UND, ENTWEDER, Verzögerer und Merker.",
+      "Eine Prüftabelle zeigt für jeden Schritt, welche Lampe leuchten soll – und wo deine Schaltung danebenliegt.",
+      "Verzögerer und Merker bringen die Zeit ins Spiel: Takte, Blinker und kleine Speicher.",
+      "Jedes Level hat eine geprüfte Referenzschaltung. Schaffst du es mit genauso wenigen Teilen?"
+    ],
+    "stepsTitle": "Verdrahten, prüfen, leuchten lassen",
+    "steps": [
+      [
+        "Tabelle lesen",
+        "Die Prüftabelle zeigt, welche Lampe bei welcher Schalterstellung leuchten soll."
+      ],
+      [
+        "Verdrahten",
+        "Bau die Schaltung aus Leitungen, Verteilern und Gattern wie NICHT, UND und ENTWEDER."
+      ],
+      [
+        "Prüfen",
+        "Der Strom fließt sichtbar Schritt für Schritt. Leuchtet jede Lampe genau dann, wenn sie soll, ist das Level gelöst."
+      ]
+    ],
+    "worldsTitle": "10 Welten mit je 16 Leveln",
+    "worlds": [
+      [
+        "Anschluss",
+        "Vom Schalter zur Lampe"
+      ],
+      [
+        "Kreuzung",
+        "Drüber weg"
+      ],
+      [
+        "Verteilung",
+        "Einer für alle"
+      ],
+      [
+        "Umkehr",
+        "An heißt aus"
+      ],
+      [
+        "Bedingung",
+        "Nur wenn beide"
+      ],
+      [
+        "Entweder",
+        "Genau einer"
+      ],
+      [
+        "Logik",
+        "Tabellen bauen"
+      ],
+      [
+        "Takt",
+        "Was eben war"
+      ],
+      [
+        "Gedächtnis",
+        "Merken und vergessen"
+      ],
+      [
+        "Rechenwerk",
+        "Zählen und rechnen"
+      ]
+    ],
+    "gallery": [],
+    "phonesAlt": [
+      "STROM-Startbildschirm: Schriftzug S T R O M, die Welt „Bedingung“ mit 14 von 16 gelösten Leveln und der Knopf „Weiterbauen“.",
+      "STROM-Spielfeld, Level 5 der Welt „Rechenwerk“: Die Prüfung steht bei Schritt 7, Strom leuchtet in Leitungen, Verteilern, Kreuzungen und einem Verzögerer bis zu zwei Lampen; oben die Prüftabelle.",
+      "STROM-Weltenübersicht mit gezeichneten Welten: Bedingung, Entweder, Logik, Takt, Gedächtnis und Rechenwerk."
+    ]
+  },
+  "en": {
+    "name": "STROM",
+    "genre": "Circuit puzzle",
+    "title": "STROM – a circuit puzzle for Android and iPhone | Riddlewerk",
+    "description": "STROM is a calm circuit puzzle: wire switches to lamps through gates and watch the current flow step by step. 160 levels in 10 worlds.",
+    "tagline": "Build the circuit. Press test. Let it shine.",
+    "lead": [
+      "Switches on the left, lamps on the right, and in between you build the circuit from wires and gates. Then the test runs step by step: the switches change, current flows visibly through your wires, and every lamp has to light exactly when it should."
+    ],
+    "stats": [
+      [
+        "10",
+        "Worlds"
+      ],
+      [
+        "160",
+        "Levels"
+      ],
+      [
+        "8",
+        "Parts"
+      ],
+      [
+        "0",
+        "Time pressure"
+      ]
+    ],
+    "features": [
+      "Ten worlds, from the first Hook-up to Arithmetic.",
+      "Eight parts: wire, crossing, splitter, NOT, AND, XOR, delay and latch.",
+      "A test table shows, step by step, which lamp should light – and where your circuit is off.",
+      "Delays and latches bring in time: clocks, blinkers and small memories.",
+      "Every level has a checked reference circuit. Can you match it with as few parts?"
+    ],
+    "stepsTitle": "Wire it, test it, let it shine",
+    "steps": [
+      [
+        "Read the table",
+        "The test table shows which lamp should light for which setting of the switches."
+      ],
+      [
+        "Wire it up",
+        "Build the circuit from wires, splitters and gates like NOT, AND and XOR."
+      ],
+      [
+        "Run the test",
+        "Current flows visibly, step by step. If every lamp lights exactly when it should, the level is solved."
+      ]
+    ],
+    "worldsTitle": "10 worlds of 16 levels each",
+    "worlds": [
+      [
+        "Hook-up",
+        "Switch to lamp"
+      ],
+      [
+        "Crossing",
+        "Over the top"
+      ],
+      [
+        "Fan-out",
+        "One for all"
+      ],
+      [
+        "Inverter",
+        "On means off"
+      ],
+      [
+        "Condition",
+        "Only if both"
+      ],
+      [
+        "Either",
+        "Exactly one"
+      ],
+      [
+        "Logic",
+        "Build the table"
+      ],
+      [
+        "Clock",
+        "What just was"
+      ],
+      [
+        "Memory",
+        "Remember and forget"
+      ],
+      [
+        "Arithmetic",
+        "Count and add"
+      ]
+    ],
+    "gallery": [],
+    "phonesAlt": [
+      "STROM home screen: the S T R O M wordmark, the Condition world with 14 of 16 levels solved and the Keep building button.",
+      "STROM board, level 5 of the Arithmetic world: the test is at step 7, current glows through wires, splitters, crossings and a delay up to two lamps; above, the test table.",
+      "STROM world overview with illustrated worlds: Condition, Either, Logic, Clock, Memory and Arithmetic."
+    ]
+  }
+}

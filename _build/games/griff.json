@@ -1,0 +1,230 @@
+{
+  "id": "griff",
+  "order": 4,
+  "letters": "GRIFF",
+  "flair": null,
+  "media": {
+    "video": true,
+    "og": true,
+    "gallery": 7,
+    "phones": [
+      "home",
+      "board",
+      "worlds"
+    ]
+  },
+  "de": {
+    "name": "GRIFF",
+    "genre": "Roboterarm-Rätsel",
+    "title": "GRIFF – Roboterarm-Rätsel für Android und iPhone | Riddlewerk",
+    "description": "GRIFF ist ein ruhiges Roboterarm-Rätsel: Gib jedem Arm ein kurzes Programm, drück Start und schau zu, wie alle zugleich arbeiten. 160 Level in 10 Hallen.",
+    "tagline": "Programmier die Arme. Drück Start. Schau zu.",
+    "lead": [
+      "Lager liefern bunte Kacheln, Ausgaben wollen ganz bestimmte Stapel. Du stellst Roboterarme auf und gibst jedem ein kurzes Programm aus Befehlstasten. Dann drückst du Start: Alle Arme arbeiten gleichzeitig, Takt für Takt, und wiederholen ihr Programm immer wieder."
+    ],
+    "stats": [
+      [
+        "10",
+        "Hallen"
+      ],
+      [
+        "160",
+        "Level"
+      ],
+      [
+        "7",
+        "Befehle"
+      ],
+      [
+        "0",
+        "Zeitdruck"
+      ]
+    ],
+    "features": [
+      "Zehn Hallen, vom ersten Griff bis zur Meisterhand mit vielen Armen auf engem Raum.",
+      "Sieben Befehle: rechts und links drehen, greifen, ablegen, ausfahren, einfahren und warten.",
+      "Stapel aus bis zu drei Lagen, Färber für die oberste Lage und Bänder in den späten Hallen.",
+      "Zwei Bestwerte pro Level: so wenige Befehle und so wenige Takte wie möglich.",
+      "Kein Glück, kein Zeitdruck: Die Arme laufen erst, wenn du Start drückst, und jedes Mal genau gleich."
+    ],
+    "stepsTitle": "Aufstellen, programmieren, starten",
+    "steps": [
+      [
+        "Arme aufstellen",
+        "Lager liefern bunte Kacheln, Ausgaben wollen bestimmte Stapel. Dazwischen stellst du Roboterarme auf."
+      ],
+      [
+        "Programmieren",
+        "Gib jedem Arm ein kurzes Programm aus Befehlstasten: drehen, greifen, ablegen, ausfahren, warten."
+      ],
+      [
+        "Start drücken",
+        "Alle Arme arbeiten gleichzeitig, Takt für Takt, und wiederholen ihr Programm. Wenige Befehle und wenige Takte bringen Sterne."
+      ]
+    ],
+    "worldsTitle": "10 Hallen mit je 16 Leveln",
+    "worlds": [
+      [
+        "Erster Griff",
+        "Greifen, drehen, ablegen"
+      ],
+      [
+        "Übergabe",
+        "Weiterreichen"
+      ],
+      [
+        "Stapelei",
+        "Unten zuerst"
+      ],
+      [
+        "Färberei",
+        "Neue Farbe, oben drauf"
+      ],
+      [
+        "Gleichtakt",
+        "Alle im Takt"
+      ],
+      [
+        "Reichweite",
+        "Weiter greifen"
+      ],
+      [
+        "Engpass",
+        "Wenig Platz"
+      ],
+      [
+        "Serie",
+        "Mehrere Aufträge"
+      ],
+      [
+        "Zulieferung",
+        "Bänder bringen Teile"
+      ],
+      [
+        "Meisterhand",
+        "Alles zusammen"
+      ]
+    ],
+    "gallery": [
+      "Programmier die Arme. Drück Start. – Dann schau zu, wie sie arbeiten.",
+      "Ein Programm pro Arm – Greifen, drehen, ablegen, warten …",
+      "Stapeln, unten zuerst – Bis zu drei Lagen, in richtiger Folge",
+      "Färber und Bänder – Neue Farbe oben drauf, Teile vom Band",
+      "Zwei Ziele, drei Sterne – Wenige Befehle und wenige Takte",
+      "160 Level – 10 Welten, jede eine eigene Halle",
+      "Mach es zu deiner Werkstatt – 12 Designs und 6 Musikstücke"
+    ],
+    "phonesAlt": [
+      "GRIFF-Startbildschirm: Schriftzug G R I F F, die Halle „Engpass“ mit 15 von 16 gelösten Leveln und der Knopf „Weiterbauen“.",
+      "GRIFF-Spielfeld, Level 16 der Halle „Meisterhand“: Vier Arme schwenken gleichzeitig, greifen Kacheln aus den Lagern und stapeln sie für die Ausgaben; darunter das Programm eines Arms.",
+      "GRIFF-Weltenübersicht mit gezeichneten Hallen: Gleichtakt, Reichweite, Engpass, Serie, Zulieferung und Meisterhand."
+    ]
+  },
+  "en": {
+    "name": "GRIFF",
+    "genre": "Robot-arm puzzle",
+    "title": "GRIFF – a robot-arm puzzle for Android and iPhone | Riddlewerk",
+    "description": "GRIFF is a calm robot-arm puzzle: give each arm a short program, press start and watch them all work at once. 160 levels in 10 halls.",
+    "tagline": "Program the arms. Press start. Watch them work.",
+    "lead": [
+      "Stores hand out coloured tiles, outputs want particular stacks. You set up robot arms and give each one a short program of command keys. Then you press start: all arms work at once, tick by tick, repeating their programs over and over."
+    ],
+    "stats": [
+      [
+        "10",
+        "Halls"
+      ],
+      [
+        "160",
+        "Levels"
+      ],
+      [
+        "7",
+        "Commands"
+      ],
+      [
+        "0",
+        "Time pressure"
+      ]
+    ],
+    "features": [
+      "Ten halls, from First Grip to Master Hand with many arms in tight spaces.",
+      "Seven commands: turn right, turn left, grab, drop, extend, retract and wait.",
+      "Stacks up to three layers high, painters for the top layer, and belts in the later halls.",
+      "Two bests per level: as few commands and as few ticks as possible.",
+      "No luck, no time pressure: the arms only run when you press start, and exactly the same way every time."
+    ],
+    "stepsTitle": "Set up, program, start",
+    "steps": [
+      [
+        "Set up the arms",
+        "Stores hand out coloured tiles, outputs want particular stacks. In between you set up robot arms."
+      ],
+      [
+        "Program them",
+        "Give each arm a short program of command keys: turn, grab, drop, extend, wait."
+      ],
+      [
+        "Press start",
+        "All arms work at once, tick by tick, repeating their programs. Few commands and few ticks earn stars."
+      ]
+    ],
+    "worldsTitle": "10 halls of 16 levels each",
+    "worlds": [
+      [
+        "First Grip",
+        "Grab, turn, drop"
+      ],
+      [
+        "Handover",
+        "Pass it on"
+      ],
+      [
+        "Stacking",
+        "Bottom first"
+      ],
+      [
+        "Paint Shop",
+        "A new colour on top"
+      ],
+      [
+        "In Step",
+        "All in step"
+      ],
+      [
+        "Reach",
+        "Grab further"
+      ],
+      [
+        "Tight Spot",
+        "Little room"
+      ],
+      [
+        "Series",
+        "Several orders"
+      ],
+      [
+        "Supply",
+        "Belts bring parts"
+      ],
+      [
+        "Master Hand",
+        "Everything at once"
+      ]
+    ],
+    "gallery": [
+      "Program the arms. Press start. – Then watch them work.",
+      "One program per arm – Grab, turn, drop, wait …",
+      "Stack it, bottom first – Up to three layers, in the right order",
+      "Painters and belts – A new colour on top, parts off the belt",
+      "Two goals, three stars – Few instructions and few ticks",
+      "160 levels – 10 worlds, each a hall of its own",
+      "Make the workshop yours – 12 designs and 6 music tracks"
+    ],
+    "phonesAlt": [
+      "GRIFF home screen: the G R I F F wordmark, the Tight Spot hall with 15 of 16 levels solved and the Keep building button.",
+      "GRIFF board, level 16 of the Master Hand hall: four arms swing at once, grabbing tiles from the stores and stacking them for the outputs; below, one arm’s program.",
+      "GRIFF world overview with illustrated halls: In Step, Reach, Tight Spot, Series, Supply and Master Hand."
+    ]
+  }
+}

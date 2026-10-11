@@ -1910,6 +1910,353 @@ details summary {
   animation: none;
 }
 
+/* ------------------------------------------------------------------ game detail pages (/<id>/, made by _build/pages.mjs)
+   The body carries the game's .game--<id> class, so --accent is the game's colour on the whole page. */
+.game__more {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 22px;
+  color: var(--accent);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.game__more:hover {
+  color: var(--text);
+}
+
+.game__more svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.18s var(--ease);
+}
+
+.game__more:hover svg {
+  transform: translateX(3px);
+}
+
+.dhero {
+  position: relative;
+  overflow: hidden;
+  padding-block: clamp(36px, 6vw, 80px) clamp(48px, 7vw, 96px);
+  isolation: isolate;
+}
+
+.dhero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(46% 60% at 12% 20%, rgba(var(--accent-rgb), 0.16), transparent 70%),
+    radial-gradient(40% 50% at 88% 40%, rgba(var(--accent-rgb), 0.1), transparent 70%);
+}
+
+.dhero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(70% 70% at 50% 40%, #000 20%, transparent 75%);
+  mask-image: radial-gradient(70% 70% at 50% 40%, #000 20%, transparent 75%);
+}
+
+.dhero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: center;
+}
+
+.dhero__text {
+  animation: fade-up 0.6s var(--ease) both;
+}
+
+.dhero__visual {
+  animation: fade-up 0.7s var(--ease) 0.15s both;
+}
+
+.dhero .game__title .keys {
+  --s: clamp(42px, 5vw, 60px);
+}
+
+.dhero .game__tagline {
+  font-size: clamp(1.375rem, 2.6vw, 1.875rem);
+}
+
+.dhero .availability {
+  margin-top: 26px;
+}
+
+.backlink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 26px;
+  padding: 6px 14px 6px 8px;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: inset 0 0 0 1px var(--line);
+  color: var(--text-2);
+  font-size: 0.9375rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.backlink:hover {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.backlink svg {
+  width: 18px;
+  height: 18px;
+}
+
+.dhero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.dhero__actions:empty {
+  display: none;
+}
+
+.dhero__actions .btn {
+  --b: var(--accent);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.35), 0 14px 32px -12px rgba(var(--accent-rgb), 0.6);
+}
+
+.dhero__actions .btn--ghost {
+  box-shadow: inset 0 0 0 1px var(--line-strong), 0 4px 0 rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 899px) {
+  .dhero__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.dsection {
+  padding-block: clamp(56px, 7vw, 104px);
+}
+
+.dsection + .dsection {
+  padding-top: 0;
+}
+
+.section-head--center {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.section-head h2 + .gallery__hint {
+  margin-top: 10px;
+}
+
+/* The trailer */
+.player {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.player video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-lg);
+  background: #05080e;
+  box-shadow:
+    inset 0 0 0 1px var(--line),
+    0 40px 80px -36px rgba(0, 0, 0, 0.9),
+    0 0 120px -40px rgba(var(--accent-rgb), 0.55);
+}
+
+.player figcaption {
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  text-align: center;
+}
+
+/* How it works */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: none;
+}
+
+.step {
+  position: relative;
+  padding: 26px 24px 24px;
+  border-radius: var(--radius);
+  background:
+    radial-gradient(90% 70% at 0% 0%, rgba(var(--accent-rgb), 0.08), transparent 70%),
+    rgba(255, 255, 255, 0.025);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.step__n {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 18px;
+  border-radius: 13px;
+  background: var(--tile);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 3px 0 var(--tile-lip);
+  color: var(--accent);
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.step h3 {
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+}
+
+.step p {
+  margin: 0;
+}
+
+@media (max-width: 899px) {
+  .steps {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Store pictures, side by side, scrolled sideways */
+.gallery {
+  display: flex;
+  gap: 18px;
+  margin: 0 calc(var(--gutter) * -1);
+  padding: 6px var(--gutter) 22px;
+  list-style: none;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter);
+  scrollbar-color: rgba(var(--accent-rgb), 0.5) transparent;
+}
+
+.gallery li {
+  flex: none;
+  width: clamp(200px, 64vw, 270px);
+  scroll-snap-align: start;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
+  border-radius: 20px;
+  background: #111;
+  box-shadow: inset 0 0 0 1px var(--line), 0 24px 48px -24px rgba(0, 0, 0, 0.9);
+}
+
+.gallery__hint {
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+/* The game in numbers */
+.facts {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: start;
+  padding: clamp(28px, 5vw, 56px);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(70% 80% at 0% 0%, rgba(var(--accent-rgb), 0.1), transparent 60%),
+    linear-gradient(180deg, #121624 0%, #0d111c 100%);
+  box-shadow: inset 0 0 0 1px var(--line), 0 40px 80px -40px rgba(0, 0, 0, 0.8);
+}
+
+.facts h2 {
+  font-size: clamp(1.75rem, 3.6vw, 2.5rem);
+}
+
+.facts .stats {
+  margin-bottom: 0;
+}
+
+.facts .features {
+  margin: 0;
+}
+
+@media (max-width: 899px) {
+  .facts {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* The worlds, in order */
+.worlds {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.world {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.025);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.world__n {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 11px;
+  background: rgba(var(--accent-rgb), 0.12);
+  box-shadow: inset 0 0 0 1px rgba(var(--accent-rgb), 0.35);
+  color: var(--accent);
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+}
+
+.world__text b {
+  display: block;
+  color: var(--text);
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.world__text small {
+  display: block;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.35;
+}
+
+.more-games {
+  justify-content: flex-start;
+  margin-top: 0;
+  animation: none;
+}
+
 /* ------------------------------------------------------------------ reduced motion */
 @media (prefers-reduced-motion: reduce) {
   html {
