@@ -8,7 +8,7 @@
     "og": false,
     "gallery": 0,
     "phones": null,
-    "art": "<div class=\"zehn-art\" role=\"img\" aria-label=\"{label}\">\r\n                <span class=\"zehn-art__back\"></span>\r\n                <span class=\"zehn-art__front\"></span>\r\n                <span class=\"key k1\">×</span>\r\n                <span class=\"key k2 is-white\">7</span>\r\n                <span class=\"key k3\">√</span>\r\n                <span class=\"key k4 is-white\">x²</span>\r\n                <span class=\"key k5\">÷</span>\r\n                <span class=\"key k6 is-white\">%</span>\r\n              </div>"
+    "art": "<div class=\"zehn-art\" role=\"img\" aria-label=\"{label}\">\n                <span class=\"zehn-art__back\"></span>\n                <span class=\"zehn-art__front\"></span>\n                <span class=\"key k1\">×</span>\n                <span class=\"key k2 is-white\">7</span>\n                <span class=\"key k3\">√</span>\n                <span class=\"key k4 is-white\">x²</span>\n                <span class=\"key k5\">÷</span>\n                <span class=\"key k6 is-white\">%</span>\n              </div>"
   },
   "de": {
     "name": "ZEHN",

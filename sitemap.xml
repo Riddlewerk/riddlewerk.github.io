@@ -73,6 +73,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/strom/"/>
   </url>
   <url>
+    <loc>https://riddlewerk.com/spiegel/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/spiegel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/spiegel/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/en/spiegel/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/spiegel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/spiegel/"/>
+  </url>
+  <url>
     <loc>https://riddlewerk.com/privacy.html</loc>
     <lastmod>2026-10-11</lastmod>
   </url>

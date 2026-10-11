@@ -1,0 +1,230 @@
+{
+  "id": "spiegel",
+  "order": 7,
+  "letters": "SPIEGEL",
+  "flair": "spiegel",
+  "media": {
+    "video": true,
+    "og": true,
+    "gallery": 7,
+    "phones": [
+      "home",
+      "board",
+      "worlds"
+    ]
+  },
+  "de": {
+    "name": "SPIEGEL",
+    "genre": "Licht-Rätsel",
+    "title": "SPIEGEL – Licht-Rätsel für Android und iPhone | Riddlewerk",
+    "description": "SPIEGEL ist ein ruhiges Licht-Rätsel: Lenk Laserstrahlen mit Spiegeln, Teilern, Filtern und Prismen, misch die Farben und triff jedes Ziel. 160 Level in 10 Welten.",
+    "tagline": "Lenk das Licht. Misch die Farben. Triff jedes Ziel.",
+    "lead": [
+      "Laser schicken farbige Strahlen über das Feld, und jedes Ziel will genau eine Farbe. Dazwischen stellst du Spiegel, Teiler, Filter, Prismen und Blenden. Das Licht folgt sofort: Jede Änderung zeigt dir gleich, wohin die Strahlen jetzt laufen."
+    ],
+    "stats": [
+      [
+        "10",
+        "Welten"
+      ],
+      [
+        "160",
+        "Level"
+      ],
+      [
+        "5",
+        "Bauteile"
+      ],
+      [
+        "0",
+        "Zeitdruck"
+      ]
+    ],
+    "features": [
+      "Zehn Welten, vom ersten Strahl bis zur Sonne mit vier Lasern und allen Bauteilen.",
+      "Fünf Bauteile: Spiegel, Teiler, Filter, Prisma und Blende.",
+      "Licht mischt sich: Rot und Grün ergeben Gelb, alle drei zusammen Weiß. Manche Ziele müssen dunkel bleiben.",
+      "Kein Zeitdruck und kein Zufall: Das Licht folgt festen Regeln und zeigt dir jede Änderung sofort.",
+      "Jedes Level hat eine geprüfte Referenzlösung. Schaffst du es mit genauso wenigen Teilen?"
+    ],
+    "stepsTitle": "Stellen, drehen, leuchten lassen",
+    "steps": [
+      [
+        "Ziele lesen",
+        "Drei Punkte an jedem Ziel zeigen, welche Grundfarben es braucht – oder ein Strich, dass es dunkel bleiben muss."
+      ],
+      [
+        "Bauteile stellen",
+        "Wähl ein Bauteil, tipp aufs Feld, tipp nochmal zum Drehen. Das Licht folgt sofort jeder Änderung."
+      ],
+      [
+        "Alles leuchtet",
+        "Trifft jedes Ziel genau seine Farbe, ist das Level gelöst. Mit so wenigen Teilen wie die Referenz gibt es drei Sterne."
+      ]
+    ],
+    "worldsTitle": "10 Welten mit je 16 Leveln",
+    "worlds": [
+      [
+        "Strahl",
+        "Licht geht geradeaus"
+      ],
+      [
+        "Umweg",
+        "Um die Ecke"
+      ],
+      [
+        "Teiler",
+        "Einer wird zwei"
+      ],
+      [
+        "Farbe",
+        "Rot, Grün, Blau"
+      ],
+      [
+        "Mischung",
+        "Licht addiert sich"
+      ],
+      [
+        "Prisma",
+        "Weiß wird bunt"
+      ],
+      [
+        "Blende",
+        "Nicht hier lang"
+      ],
+      [
+        "Labyrinth",
+        "Viele Wände"
+      ],
+      [
+        "Kaleidoskop",
+        "Alles zugleich"
+      ],
+      [
+        "Sonne",
+        "Das große Licht"
+      ]
+    ],
+    "gallery": [
+      "Lenk das Licht. Triff jedes Ziel. – Mit Spiegeln, Teilern, Prismen und Filtern",
+      "Spiegel lenken das Licht – Jeder Strahl findet seinen Weg …",
+      "Licht mischt sich – Strahlen treffen sich, Farben mischen sich",
+      "Prismen und Filter – Weißes Licht wird bunt",
+      "Wenige Teile, drei Sterne – Schaffst du den Bestwert?",
+      "160 Level – 10 Welten, jede in eigenem Licht",
+      "Mach es zu deinem Labor – 12 Designs und 6 Musikstücke"
+    ],
+    "phonesAlt": [
+      "SPIEGEL-Startbildschirm: Schriftzug S P I E G E L auf einem Spiegel mit rotem Laserstrahl, die Welt „Blende“ mit 15 von 16 gelösten Leveln und der Knopf „Weiterspielen“.",
+      "SPIEGEL-Spielfeld, Level 11 der Welt „Sonne“: Strahlen in fünf Farben laufen über Spiegel, Teiler und ein Prisma zu sieben Zielen, alle richtig beleuchtet.",
+      "SPIEGEL-Weltenübersicht mit gezeichneten Welten: Mischung, Prisma, Blende, Labyrinth, Kaleidoskop und Sonne."
+    ]
+  },
+  "en": {
+    "name": "SPIEGEL",
+    "genre": "Light puzzle",
+    "title": "SPIEGEL – a light puzzle for Android and iPhone | Riddlewerk",
+    "description": "SPIEGEL is a calm light puzzle: bend laser beams with mirrors, splitters, filters and prisms, mix the colours and hit every target. 160 levels in 10 worlds.",
+    "tagline": "Bend the light. Mix the colours. Hit every target.",
+    "lead": [
+      "Lasers send coloured beams across the board, and every target wants exactly one colour. In between you place mirrors, splitters, filters, prisms and shutters. The light follows at once: every change shows you straight away where the beams run now."
+    ],
+    "stats": [
+      [
+        "10",
+        "Worlds"
+      ],
+      [
+        "160",
+        "Levels"
+      ],
+      [
+        "5",
+        "Kinds of optics"
+      ],
+      [
+        "0",
+        "Time pressure"
+      ]
+    ],
+    "features": [
+      "Ten worlds, from the first Beam to Sun with four lasers and every kind of optic.",
+      "Five kinds of optics: mirror, splitter, filter, prism and shutter.",
+      "Light mixes: red and green make yellow, all three make white. Some targets must stay dark.",
+      "No time pressure and no luck: the light follows fixed rules and shows you every change at once.",
+      "Every level has a checked reference solution. Can you match it with as few parts?"
+    ],
+    "stepsTitle": "Place, turn, let it shine",
+    "steps": [
+      [
+        "Read the targets",
+        "Three dots on each target show which primary colours it needs – or a stroke that it must stay dark."
+      ],
+      [
+        "Place the optics",
+        "Pick a part, tap a cell, tap again to turn it. The light follows every change at once."
+      ],
+      [
+        "Light it all",
+        "When every target gets exactly its colour, the level is solved. Match the reference’s part count for three stars."
+      ]
+    ],
+    "worldsTitle": "10 worlds of 16 levels each",
+    "worlds": [
+      [
+        "Beam",
+        "Light goes straight"
+      ],
+      [
+        "Detour",
+        "Round the corner"
+      ],
+      [
+        "Splitter",
+        "One becomes two"
+      ],
+      [
+        "Colour",
+        "Red, green, blue"
+      ],
+      [
+        "Mixing",
+        "Light adds up"
+      ],
+      [
+        "Prism",
+        "White breaks apart"
+      ],
+      [
+        "Shutter",
+        "Not this way"
+      ],
+      [
+        "Maze",
+        "Many walls"
+      ],
+      [
+        "Kaleidoscope",
+        "All at once"
+      ],
+      [
+        "Sun",
+        "The great light"
+      ]
+    ],
+    "gallery": [
+      "Bend the light. Hit every target. – With mirrors, splitters, prisms and filters",
+      "Mirrors bend the light – Every beam finds its way …",
+      "Light mixes – Beams meet, colours mix",
+      "Prisms and filters – White light turns to colour",
+      "Few parts, three stars – Can you match the best?",
+      "160 levels – 10 worlds, each in a light of its own",
+      "Make the lab yours – 12 designs and 6 music tracks"
+    ],
+    "phonesAlt": [
+      "SPIEGEL home screen: the S P I E G E L wordmark standing on a mirror with a red laser beam, the Shutter world with 15 of 16 levels solved and the Keep playing button.",
+      "SPIEGEL board, level 11 of the Sun world: beams in five colours run over mirrors, splitters and a prism to seven targets, all lit right.",
+      "SPIEGEL world overview with illustrated worlds: Mixing, Prism, Shutter, Maze, Kaleidoscope and Sun."
+    ]
+  }
+}

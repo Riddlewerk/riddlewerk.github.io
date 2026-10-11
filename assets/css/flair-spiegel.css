@@ -1,0 +1,106 @@
+/* SPIEGEL's flair (assets/js/flair-spiegel.js): a laser beam that runs in along the top margin of the
+   SPIEGEL card or page head, down the gap between pictures and text, and out along the bottom margin,
+   turned by two small mirrors. Two-column layouts only, and never with reduced motion. */
+.laser-flair {
+  --laser: #fb7185;
+  --laser-rgb: 251, 113, 133;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.laser-flair path {
+  fill: none;
+  stroke-linejoin: miter;
+}
+
+.laser-flair .beam {
+  stroke-dasharray: var(--len) var(--len);
+  stroke-dashoffset: var(--len);
+  transition: stroke-dashoffset 1.9s cubic-bezier(0.45, 0, 0.2, 1), opacity 1.2s ease;
+}
+
+.laser-flair .glow {
+  stroke: rgba(var(--laser-rgb), 0.2);
+  stroke-width: 14px;
+}
+
+.laser-flair .core {
+  stroke: var(--laser);
+  stroke-width: 3px;
+}
+
+.laser-flair .hot {
+  stroke: #ffffff;
+  stroke-width: 1px;
+  opacity: 0.75;
+}
+
+.laser-flair.is-on .beam {
+  stroke-dashoffset: 0;
+}
+
+/* Once the light has arrived it stays, a little quieter, so it never competes with the text. */
+.laser-flair.is-done .beam {
+  opacity: 0.55;
+}
+
+.laser-flair .mirror {
+  stroke: #e2e8f0;
+  stroke-width: 5px;
+  stroke-linecap: round;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.laser-flair .mirror-shade {
+  stroke: #64748b;
+  stroke-width: 9px;
+  stroke-linecap: round;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.laser-flair.is-shown .mirror {
+  opacity: 0.9;
+}
+
+.laser-flair.is-shown .mirror-shade {
+  opacity: 0.6;
+}
+
+.laser-flair .flare {
+  fill: #ffffff;
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.laser-flair.is-on .flare {
+  animation: laser-flare 0.9s ease-out var(--at) both;
+}
+
+@keyframes laser-flare {
+  0% {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  25% {
+    opacity: 0.95;
+    transform: scale(1.4);
+  }
+  100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 959px), (prefers-reduced-motion: reduce) {
+  .laser-flair {
+    display: none;
+  }
+}

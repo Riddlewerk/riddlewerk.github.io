@@ -57,6 +57,8 @@
   --tangerine-rgb: 251, 146, 60;
   --volt: #facc15;
   --volt-rgb: 250, 204, 21;
+  --rose: #fb7185;
+  --rose-rgb: 251, 113, 133;
 
   --accent: var(--amber);
   --accent-rgb: var(--amber-rgb);
@@ -835,6 +837,11 @@ strong {
   --accent-rgb: var(--volt-rgb);
 }
 
+.game--spiegel {
+  --accent: var(--rose);
+  --accent-rgb: var(--rose-rgb);
+}
+
 /* Every second game mirrors its layout, so a third or fourth game is one more <article>. */
 .game:nth-child(even) {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
@@ -1037,6 +1044,13 @@ strong {
 
   .game__title .keys {
     --s: 34px;
+  }
+}
+
+/* A name of seven letters or more sets its caps smaller on phones, so the row fits beside the icon. */
+@media (max-width: 599px) {
+  .game__title .keys:has(.key:nth-child(7)) {
+    --s: 27px;
   }
 }
 

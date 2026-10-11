@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <title>Riddlewerk – small, calm puzzle games</title>
-  <meta name="description" content="Riddlewerk is a small indie studio making puzzle games for phones. Our games: DREH, a word puzzle, ZEHN, a number puzzle, WERK, a conveyor-belt puzzle, GRIFF, a robot-arm puzzle, and STROM, a circuit puzzle.">
+  <meta name="description" content="Riddlewerk is a small indie studio making puzzle games for phones. Our games: DREH, a word puzzle, ZEHN, a number puzzle, WERK, a conveyor-belt puzzle, GRIFF, a robot-arm puzzle, STROM, a circuit puzzle, and SPIEGEL, a light puzzle.">
   <meta name="theme-color" content="#080D16">
   <meta name="color-scheme" content="dark">
   <link rel="canonical" href="https://riddlewerk.com/en/">
@@ -19,7 +19,7 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="de_DE">
   <meta property="og:title" content="Riddlewerk – small, calm puzzle games">
-  <meta property="og:description" content="An indie studio making puzzle games where the order of your moves is the puzzle. Coming soon: DREH, ZEHN, WERK, GRIFF and STROM.">
+  <meta property="og:description" content="An indie studio making puzzle games where the order of your moves is the puzzle. Coming soon: DREH, ZEHN, WERK, GRIFF, STROM and SPIEGEL.">
   <meta property="og:url" content="https://riddlewerk.com/en/">
   <meta property="og:image" content="https://riddlewerk.com/assets/img/og-image.png">
   <meta property="og:image:width" content="1200">
@@ -27,7 +27,7 @@
   <meta property="og:image:alt" content="The Riddlewerk wordmark spelled on game tiles, with the games DREH and ZEHN below.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Riddlewerk – small, calm puzzle games">
-  <meta name="twitter:description" content="An indie studio making puzzle games where the order of your moves is the puzzle. Coming soon: DREH, ZEHN, WERK, GRIFF and STROM.">
+  <meta name="twitter:description" content="An indie studio making puzzle games where the order of your moves is the puzzle. Coming soon: DREH, ZEHN, WERK, GRIFF, STROM and SPIEGEL.">
   <meta name="twitter:image" content="https://riddlewerk.com/assets/img/og-image.png">
 
   <link rel="icon" href="../favicon.ico" sizes="32x32">
@@ -41,6 +41,8 @@
   <link rel="preload" href="../assets/fonts/nunito-semibold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../assets/css/site.css">
   <script src="../assets/js/site.js" defer></script>
+  <link rel="stylesheet" href="../assets/css/flair-spiegel.css">
+  <script src="../assets/js/flair-spiegel.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -80,7 +82,7 @@
           </span>
         </h1>
         <p class="hero__lead">Small, calm puzzle games where the order of your moves is the puzzle.</p>
-        <p class="hero__sub">We are a small indie studio. Our games: DREH, a word puzzle, ZEHN, a number puzzle, WERK, a conveyor-belt puzzle, GRIFF, a robot-arm puzzle, and STROM, a circuit puzzle – coming soon to Android and iPhone.</p>
+        <p class="hero__sub">We are a small indie studio. Our games: DREH, a word puzzle, ZEHN, a number puzzle, WERK, a conveyor-belt puzzle, GRIFF, a robot-arm puzzle, STROM, a circuit puzzle, and SPIEGEL, a light puzzle – coming soon to Android and iPhone.</p>
         <div class="hero__actions">
           <a class="btn" href="#games">See the games
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
@@ -93,6 +95,7 @@
           <li><a class="chip" href="#werk"><img src="../assets/img/werk-icon-192.webp" width="40" height="40" alt=""><span>WERK<small>Conveyor puzzle</small></span></a></li>
           <li><a class="chip" href="#griff"><img src="../assets/img/griff-icon-192.webp" width="40" height="40" alt=""><span>GRIFF<small>Robot-arm puzzle</small></span></a></li>
           <li><a class="chip" href="#strom"><img src="../assets/img/strom-icon-192.webp" width="40" height="40" alt=""><span>STROM<small>Circuit puzzle</small></span></a></li>
+          <li><a class="chip" href="#spiegel"><img src="../assets/img/spiegel-icon-192.webp" width="40" height="40" alt=""><span>SPIEGEL<small>Light puzzle</small></span></a></li>
         </ul>
       </div>
     </section>
@@ -106,7 +109,7 @@
         <div class="section-head">
           <p class="eyebrow">Our games</p>
           <h2 id="games-title">One&nbsp;start. One&nbsp;target. And the&nbsp;way between.</h2>
-          <p>Every level shows you where it starts and where it should end. In DREH and ZEHN you play cards to get there, each only as often as it allows. In WERK you build a machine, in GRIFF you program robot arms, and in STROM you wire up a circuit. How you get there is the whole puzzle.</p>
+          <p>Every level shows you where it starts and where it should end. In DREH and ZEHN you play cards to get there, each only as often as it allows. In WERK you build a machine, in GRIFF you program robot arms, in STROM you wire up a circuit, and in SPIEGEL you bend light with mirrors. How you get there is the whole puzzle.</p>
         </div>
 
         <div class="games">
@@ -374,6 +377,59 @@
               <p class="shot-caption">Screenshots from the current version of STROM</p>
             </div>
           </article>
+          <!-- SPIEGEL -->
+          <article class="game game--spiegel" id="spiegel" aria-labelledby="spiegel-title">
+            <div class="game__intro">
+              <div class="game__head">
+                <img class="game__icon" src="../assets/img/spiegel-icon-192.webp" width="64" height="64" alt="SPIEGEL app icon">
+                <div>
+                  <p class="game__genre">Light puzzle</p>
+                  <h3 class="game__title" id="spiegel-title">
+                    <span class="sr-only">SPIEGEL</span>
+                    <span class="keys keys--game" aria-hidden="true"><span class="key">S</span><span class="key">P</span><span class="key">I</span><span class="key">E</span><span class="key">G</span><span class="key">E</span><span class="key">L</span></span>
+                  </h3>
+                </div>
+              </div>
+              <p class="game__tagline"><q>“Bend the light. Mix the colours. Hit every target.”</q></p>
+              <div class="game__text">
+                <p>Lasers send coloured beams across the board, and every target wants exactly one colour. In between you place mirrors, splitters, filters, prisms and shutters. The light follows at once: every change shows you straight away where the beams run now.</p>
+              </div>
+            </div>
+            <div class="game__details">
+              <ul class="stats" aria-label="SPIEGEL in numbers">
+                <li class="stat"><b>10</b><span>Worlds</span></li>
+                <li class="stat"><b>160</b><span>Levels</span></li>
+                <li class="stat"><b>5</b><span>Kinds of optics</span></li>
+                <li class="stat"><b>0</b><span>Time pressure</span></li>
+              </ul>
+              <ul class="features">
+                <li>Ten worlds, from the first Beam to Sun with four lasers and every kind of optic.</li>
+                <li>Five kinds of optics: mirror, splitter, filter, prism and shutter.</li>
+                <li>Light mixes: red and green make yellow, all three make white. Some targets must stay dark.</li>
+                <li>No time pressure and no luck: the light follows fixed rules and shows you every change at once.</li>
+                <li>Every level has a checked reference solution. Can you match it with as few parts?</li>
+              </ul>
+              <ul class="availability" aria-label="Availability">
+                <li>Coming soon to Google Play</li>
+                <li>Coming soon to the App Store</li>
+              </ul>
+              <a class="game__more" href="spiegel/">More about SPIEGEL<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
+            <div class="game__visual">
+              <div class="phones">
+                <figure class="phone phone--side phone--left">
+                  <img src="../assets/img/spiegel-home-en-320.webp" srcset="../assets/img/spiegel-home-en-320.webp 320w, ../assets/img/spiegel-home-en-640.webp 640w" sizes="(max-width: 599px) 150px, 190px" width="320" height="692" loading="lazy" decoding="async" alt="SPIEGEL home screen: the S P I E G E L wordmark standing on a mirror with a red laser beam, the Shutter world with 15 of 16 levels solved and the Keep playing button.">
+                </figure>
+                <figure class="phone">
+                  <img src="../assets/img/spiegel-board-en-320.webp" srcset="../assets/img/spiegel-board-en-320.webp 320w, ../assets/img/spiegel-board-en-640.webp 640w" sizes="(max-width: 599px) 184px, 236px" width="320" height="692" loading="lazy" decoding="async" alt="SPIEGEL board, level 11 of the Sun world: beams in five colours run over mirrors, splitters and a prism to seven targets, all lit right.">
+                </figure>
+                <figure class="phone phone--side phone--right">
+                  <img src="../assets/img/spiegel-worlds-en-320.webp" srcset="../assets/img/spiegel-worlds-en-320.webp 320w, ../assets/img/spiegel-worlds-en-640.webp 640w" sizes="(max-width: 599px) 150px, 190px" width="320" height="692" loading="lazy" decoding="async" alt="SPIEGEL world overview with illustrated worlds: Mixing, Prism, Shutter, Maze, Kaleidoscope and Sun.">
+                </figure>
+              </div>
+              <p class="shot-caption">Screenshots from the current version of SPIEGEL</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -387,7 +443,7 @@
             <h2 id="studio-title">The order is the puzzle.</h2>
             <p>Riddlewerk is a small indie studio making puzzle games for phones. We build small, calm games that fit into a break and still give you a real aha moment.</p>
             <p>They all share one idea: you see the start and the target, and you hold every card in your hand. Nothing is hidden, nothing comes down to luck. Whether you get there depends only on the order you play in.</p>
-            <p>DREH does it with words, ZEHN with numbers. In WERK you build the order yourself: a machine of belts and splitters that runs tick by tick. GRIFF turns it into programs for robot arms, STROM into a circuit that current flows through step by step.</p>
+            <p>DREH does it with words, ZEHN with numbers. In WERK you build the order yourself: a machine of belts and splitters that runs tick by tick. GRIFF turns it into programs for robot arms, STROM into a circuit that current flows through step by step. SPIEGEL bends light over mirrors and prisms until every target glows in its colour.</p>
           </div>
 
           <div class="demo" id="try" data-demo data-start="worm" data-target="cow" aria-labelledby="demo-title">
@@ -506,6 +562,7 @@
             <li><a href="werk/">WERK</a></li>
             <li><a href="griff/">GRIFF</a></li>
             <li><a href="strom/">STROM</a></li>
+            <li><a href="spiegel/">SPIEGEL</a></li>
           </ul>
         </nav>
         <nav class="footer-col" aria-labelledby="f-studio">
