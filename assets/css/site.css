@@ -63,6 +63,8 @@
   --indigo-rgb: 129, 140, 248;
   --violet: #a78bfa;
   --violet-rgb: 167, 139, 250;
+  --brass: #d9b36c;
+  --brass-rgb: 217, 179, 108;
 
   --accent: var(--amber);
   --accent-rgb: var(--amber-rgb);
@@ -854,6 +856,11 @@ strong {
 .game--schatten {
   --accent: var(--violet);
   --accent-rgb: var(--violet-rgb);
+}
+
+.game--gang {
+  --accent: var(--brass);
+  --accent-rgb: var(--brass-rgb);
 }
 
 /* Every second game mirrors its layout, so a third or fourth game is one more <article>. */

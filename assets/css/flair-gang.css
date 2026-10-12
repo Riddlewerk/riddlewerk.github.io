@@ -1,0 +1,28 @@
+/* Riddlewerk: GANG's flair, a train of gears meshing and turning in the page margin (flair-gang.js).
+   Wide screens only, nothing with reduced motion; never in the way of reading or clicking. */
+
+.flair-gang {
+  position: absolute;
+  /* Beside the hero or the card, set by the script. */
+  left: var(--flair-left, 0);
+  top: var(--flair-top, 0);
+  z-index: 0;
+  pointer-events: none;
+  transition: opacity 0.9s var(--ease, ease);
+}
+
+.flair-gang.is-gone {
+  opacity: 0;
+}
+
+.flair-gang svg {
+  display: block;
+  /* The train runs off the edge of the window rather than past it: the drawing clips itself. */
+  overflow: hidden;
+}
+
+@media (max-width: 899px), (prefers-reduced-motion: reduce) {
+  .flair-gang {
+    display: none;
+  }
+}

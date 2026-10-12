@@ -1,0 +1,262 @@
+{
+  "id": "gang",
+  "order": 9,
+  "letters": "GANG",
+  "flair": "gang",
+  "media": {
+    "video": true,
+    "og": true,
+    "gallery": 7,
+    "phones": [
+      "home",
+      "board",
+      "worlds"
+    ]
+  },
+  "de": {
+    "name": "GANG",
+    "genre": "Zahnrad-Rätsel",
+    "title": "GANG – Zahnrad-Rätsel für Android und iPhone | Riddlewerk",
+    "description": "GANG ist ein ruhiges Zahnrad-Rätsel: Setz Räder, Riemen und Summierer zwischen Motor und Zeiger, bis jeder Zeiger richtig dreht. 350 Level in 14 Welten.",
+    "tagline": "Setz die Räder. Der Motor läuft. Jeder Zeiger dreht richtig.",
+    "lead": [
+      "Auf einem kleinen Brett stehen Motoren und Zeiger. Jeder Zeiger will in seiner Richtung und in seinem Tempo drehen, zum Beispiel viermal so schnell wie der Motor. Dazwischen setzt du Zahnräder, Riemen und Summierer aus einem Kasten mit genau abgezählten Teilen. Das Getriebe dreht sofort mit, und erst wenn jeder Zeiger richtig dreht und nichts klemmt, ist das Level gelöst."
+    ],
+    "stats": [
+      [
+        "14",
+        "Welten"
+      ],
+      [
+        "350",
+        "Level"
+      ],
+      [
+        "6",
+        "Teile"
+      ],
+      [
+        "0",
+        "Zeitdruck"
+      ]
+    ],
+    "features": [
+      "14 Welten, vom ersten Zahnrad über Riemen, Kreuzriemen und zwei Motoren bis zum Uhrturm.",
+      "Maßstabsgetreue Räder: Klein greift in groß, mittel in mittel, größere Paare klemmen.",
+      "Ein Summierer zählt zwei Tempi zusammen: 3 + 1 = 4, gegeneinander wird abgezogen.",
+      "Ein bewiesener Bestwert pro Level: Mit den wenigsten Teilen gibt es drei Sterne.",
+      "Kein Glück, kein Zeitdruck: Was du setzt, dreht genau so, jedes Mal."
+    ],
+    "stepsTitle": "Setzen, drehen, Zeiger treffen",
+    "steps": [
+      [
+        "Setzen",
+        "Wähl ein Teil aus dem Kasten und tipp auf ein freies Feld. Noch einmal tippen dreht einen Riemen oder Summierer, langes Drücken nimmt ein Teil weg."
+      ],
+      [
+        "Rechnen",
+        "Ein kleines Rad am großen Motor dreht dreimal so schnell, ein großes am kleinen ein Drittel so schnell. Ein Riemen behält die Richtung, ein Kreuzriemen dreht sie um."
+      ],
+      [
+        "Zeiger treffen",
+        "Dreht ein Zeiger richtig, bekommt er einen grünen Ring; unter dem Brett steht, was noch im Weg ist. Mit den wenigsten Teilen gibt es drei Sterne."
+      ]
+    ],
+    "worldsTitle": "14 Welten mit je 25 Leveln",
+    "worlds": [
+      [
+        "Zahnrad",
+        "Dreh mit"
+      ],
+      [
+        "Riemen",
+        "Gleiche Richtung"
+      ],
+      [
+        "Kreuzriemen",
+        "Über Kreuz"
+      ],
+      [
+        "Summierer",
+        "Zwei Kräfte, eine Summe"
+      ],
+      [
+        "Zeiger",
+        "Alle zugleich"
+      ],
+      [
+        "Blockade",
+        "Nichts darf klemmen"
+      ],
+      [
+        "Enge",
+        "Kein Platz für Große"
+      ],
+      [
+        "Feste Räder",
+        "Was schon steht"
+      ],
+      [
+        "Zwei Motoren",
+        "Doppelter Antrieb"
+      ],
+      [
+        "Getriebe",
+        "Lange Ketten"
+      ],
+      [
+        "Uhrwerk",
+        "Präzision"
+      ],
+      [
+        "Fabrik",
+        "Große Hallen"
+      ],
+      [
+        "Maschine",
+        "Jedes Teil zählt"
+      ],
+      [
+        "Uhrturm",
+        "Alles greift ineinander"
+      ]
+    ],
+    "gallery": [
+      "Setz die Räder. Der Motor läuft. – Jeder Zeiger muss genau richtig drehen",
+      "Klein und groß greifen – Mittel und mittel auch, größer klemmt",
+      "Der Summierer rechnet – Zwei Kräfte, eine Summe",
+      "Riemen und Kreuzriemen – Gleiche Richtung oder andersherum",
+      "Wenig Teile, drei Sterne – Drei Sterne gibt es für den Bestwert",
+      "350 Level – 14 Welten, vom Zahnrad zum Uhrturm",
+      "Mach die Werkstatt zu deiner – 12 Designs und 6 Musikstücke"
+    ],
+    "phonesAlt": [
+      "GANG-Startbildschirm: Schriftzug G A N G auf einer Messing-Zahnstange mit einem Stahlrad an jedem Ende, die Welt „Uhrwerk“ mit 24 von 25 gelösten Leveln und der Knopf „Weiterspielen“.",
+      "GANG-Spielfeld, Level 9 der Welt „Uhrturm“: Drei Motoren, große Messing- und kleine Stahlräder greifen ineinander, ein Summierer zählt zwei Tempi zusammen, und jeder Zeiger dreht richtig, grün umrandet.",
+      "GANG-Weltenübersicht mit gezeichneten Welten: Zwei Motoren, Getriebe, Uhrwerk, Fabrik, Maschine und Uhrturm."
+    ]
+  },
+  "en": {
+    "name": "GANG",
+    "genre": "Gear puzzle",
+    "title": "GANG – Gear puzzle for Android and iPhone | Riddlewerk",
+    "description": "GANG is a calm gear puzzle: set gears, belts and summing gears between motor and dial until every dial turns just right. 350 levels in 14 worlds.",
+    "tagline": "Place the gears. The motor runs. Every dial turns right.",
+    "lead": [
+      "A small board holds motors and dials. Every dial wants to turn its own way at its own speed, say four times as fast as the motor. Between them you set gears, belts and summing gears from a box with an exact count of each. The train turns at once, and the level is solved only when every dial turns right and nothing jams."
+    ],
+    "stats": [
+      [
+        "14",
+        "Worlds"
+      ],
+      [
+        "350",
+        "Levels"
+      ],
+      [
+        "6",
+        "Parts"
+      ],
+      [
+        "0",
+        "Time pressure"
+      ]
+    ],
+    "features": [
+      "14 worlds, from the first gear through belts, crossed belts and two motors to the clock tower.",
+      "Gears drawn to scale: small meshes with large, medium with medium, bigger pairs jam.",
+      "A summing gear adds two speeds: 3 + 1 = 4, and against each other they subtract.",
+      "A proven best score for every level: the fewest parts earn three stars.",
+      "No luck, no time pressure: what you set turns exactly like that, every time."
+    ],
+    "stepsTitle": "Set, turn, match the dials",
+    "steps": [
+      [
+        "Set",
+        "Pick a part from the box and tap a free cell. Tap again to turn a belt or a summing gear, a long press takes a part away."
+      ],
+      [
+        "Work it out",
+        "A small gear at a large motor turns three times as fast, a large one at a small motor a third as fast. A belt keeps the direction, a crossed belt turns it round."
+      ],
+      [
+        "Match the dials",
+        "A dial that turns right gets a green ring, and below the board it says what is still in the way. The fewest parts earn three stars."
+      ]
+    ],
+    "worldsTitle": "14 worlds of 25 levels each",
+    "worlds": [
+      [
+        "Gear",
+        "Turn along"
+      ],
+      [
+        "Belts",
+        "Same direction"
+      ],
+      [
+        "Crossed belts",
+        "Crossing over"
+      ],
+      [
+        "Summing gear",
+        "Two forces, one sum"
+      ],
+      [
+        "Dials",
+        "All at once"
+      ],
+      [
+        "Blockade",
+        "Nothing may jam"
+      ],
+      [
+        "Tight spots",
+        "No room for the large"
+      ],
+      [
+        "Fixed gears",
+        "What already stands"
+      ],
+      [
+        "Two motors",
+        "Double drive"
+      ],
+      [
+        "Gearbox",
+        "Long trains"
+      ],
+      [
+        "Clockwork",
+        "Precision"
+      ],
+      [
+        "Factory",
+        "Big halls"
+      ],
+      [
+        "Machine",
+        "Every part counts"
+      ],
+      [
+        "Clock tower",
+        "Everything meshes"
+      ]
+    ],
+    "gallery": [
+      "Place the gears. The motor runs. – Every dial has to turn just right",
+      "Small and large mesh – So do two mediums. Bigger ones jam",
+      "The summing gear adds – Two forces, one sum",
+      "Belts and crossed belts – The same way round, or the other",
+      "Fewer parts, three stars – Match the best score for three stars",
+      "350 levels – 14 worlds, up to the clock tower",
+      "Make the workshop yours – 12 designs and 6 music tracks"
+    ],
+    "phonesAlt": [
+      "GANG home screen: the name G A N G on a brass rack with a steel gear at each end, the world “Clockwork” with 24 of 25 levels solved and the “Keep playing” button.",
+      "GANG board, level 9 of the world “Clock tower”: three motors, large brass and small steel gears meshing, a summing gear adding two speeds, and every dial turning right, ringed in green.",
+      "GANG worlds overview with illustrated worlds: Two motors, Gearbox, Clockwork, Factory, Machine and Clock tower."
+    ]
+  }
+}
