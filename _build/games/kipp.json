@@ -1,0 +1,280 @@
+{
+  "id": "kipp",
+  "order": 10,
+  "letters": "KIPP",
+  "flair": "kipp",
+  "media": {
+    "video": true,
+    "og": true,
+    "gallery": 7,
+    "phones": [
+      "home",
+      "board",
+      "worlds"
+    ]
+  },
+  "de": {
+    "name": "KIPP",
+    "genre": "Kipp-Rätsel",
+    "title": "KIPP – Kipp-Rätsel für Android und iPhone | Riddlewerk",
+    "description": "KIPP ist ein ruhiges Kipp-Rätsel: Kipp das Brett, alle Kugeln rollen zugleich, und jede muss in das Loch ihrer Farbe. 256 Level in 16 Welten.",
+    "tagline": "Kipp das Brett. Alle Kugeln rollen. Jede in ihr Loch.",
+    "lead": [
+      "Auf einem kleinen Brett liegen Kugeln in vier Farben und Löcher in denselben Farben. Du kippst das Brett nach oben, unten, links oder rechts, und alle Kugeln rollen zugleich, jede, bis etwas sie stoppt: eine Wand, der Rand, eine andere Kugel. Gelöst ist das Level, wenn jede Kugel im Loch ihrer Farbe liegt. Rollt eine in ein fremdes Loch, ist sie weg, und du nimmst den Zug zurück."
+    ],
+    "stats": [
+      [
+        "16",
+        "Welten"
+      ],
+      [
+        "256",
+        "Level"
+      ],
+      [
+        "4",
+        "Farben"
+      ],
+      [
+        "0",
+        "Zeitdruck"
+      ]
+    ],
+    "features": [
+      "16 Welten, von der ersten Kugel über Wände, Kleber und Steine bis zum Meister.",
+      "Umlenker schicken Kugeln um die Ecke, Röhren tragen sie unter Wänden hindurch.",
+      "Ein Schalter hält das Tor offen, solange eine Kugel oder ein Stein darauf liegt.",
+      "Farbtöpfe färben Kugeln um, Farbtore lassen nur ihre Farbe durch, Bröckelboden trägt nur einmal.",
+      "Ein bewiesener Bestwert pro Level: Mit den wenigsten Zügen gibt es drei Sterne.",
+      "Kein Glück, kein Zeitdruck: Jedes Kippen rollt genau so, jedes Mal."
+    ],
+    "stepsTitle": "Kippen, rollen, einlochen",
+    "steps": [
+      [
+        "Kippen",
+        "Wisch über das Brett oder tipp auf einen der vier Pfeile. Das Brett kippt in diese Richtung."
+      ],
+      [
+        "Rollen",
+        "Alle Kugeln rollen zugleich, Feld für Feld, bis etwas sie stoppt. Auch eine andere Kugel stoppt sie, und das ist oft der Trick."
+      ],
+      [
+        "Einlochen",
+        "Jede Kugel will in das Loch ihrer Farbe. Einen Zug zurücknehmen geht immer, und mit dem Bestwert gibt es drei Sterne."
+      ]
+    ],
+    "worldsTitle": "16 Welten mit je 16 Leveln",
+    "worlds": [
+      [
+        "Kugel",
+        "Einmal kippen"
+      ],
+      [
+        "Wand",
+        "Bis es stoppt"
+      ],
+      [
+        "Farbe",
+        "Jede in ihr Loch"
+      ],
+      [
+        "Stau",
+        "Kugel an Kugel"
+      ],
+      [
+        "Kleber",
+        "Hier bleibt sie"
+      ],
+      [
+        "Umlenker",
+        "Um die Ecke"
+      ],
+      [
+        "Stein",
+        "Graue Brocken"
+      ],
+      [
+        "Einbahn",
+        "Nur in eine Richtung"
+      ],
+      [
+        "Röhre",
+        "Rein und raus"
+      ],
+      [
+        "Schalter",
+        "Auf und zu"
+      ],
+      [
+        "Drei",
+        "Drei Farben"
+      ],
+      [
+        "Farbtopf",
+        "Eine neue Farbe"
+      ],
+      [
+        "Farbtor",
+        "Nur für eine Farbe"
+      ],
+      [
+        "Bröckel",
+        "Nur einmal"
+      ],
+      [
+        "Irrgarten",
+        "Große Bretter"
+      ],
+      [
+        "Meister",
+        "Alles zusammen"
+      ]
+    ],
+    "gallery": [
+      "Kipp das Brett. Alle Kugeln rollen. – Jede Kugel muss in ihr eigenes Loch",
+      "Um die Ecke – Umlenker schicken jede Kugel in eine neue Richtung",
+      "Rein in die Röhre – Raus am anderen Ende, weiter in derselben Richtung",
+      "Der Schalter öffnet das Tor – Solange eine Kugel oder ein Stein darauf liegt",
+      "Erst färben, dann durchs Tor – Durch ein Farbtor kommt nur seine Farbe",
+      "Wenig Züge, drei Sterne – Drei Sterne gibt es für den Bestwert",
+      "256 Level – 16 Welten, von der ersten Kugel bis zum Meister"
+    ],
+    "phonesAlt": [
+      "KIPP-Startbildschirm: Schriftzug K I P P, darunter die Welt „Farbtor“ mit 15 von 16 gelösten Leveln und der Knopf „Weiterspielen“.",
+      "KIPP-Spielfeld, Level 11 der Welt „Meister“: Drei Kugeln rollen mitten im Kippen über das Brett, dazu Löcher in ihren Farben, Pfeilfelder, Kleber, ein Schalter und ein Tor.",
+      "KIPP-Weltenübersicht mit gezeichneten Brettern: Drei, Farbtopf, Farbtor, Bröckel, Irrgarten und Meister."
+    ]
+  },
+  "en": {
+    "name": "KIPP",
+    "genre": "Tilt puzzle",
+    "title": "KIPP – Tilt puzzle for Android and iPhone | Riddlewerk",
+    "description": "KIPP is a calm tilt puzzle: tilt the board, every marble rolls at once, and each one has to reach the hole of its colour. 256 levels in 16 worlds.",
+    "tagline": "Tilt the board. Every marble rolls. Each into its hole.",
+    "lead": [
+      "A small board holds marbles in four colours and holes in the same colours. You tilt the board up, down, left or right, and every marble rolls at once, each until something stops it: a wall, the edge, another marble. The level is solved when every marble lies in the hole of its colour. If one rolls into another colour’s hole, it is gone, and you take the move back."
+    ],
+    "stats": [
+      [
+        "16",
+        "Worlds"
+      ],
+      [
+        "256",
+        "Levels"
+      ],
+      [
+        "4",
+        "Colours"
+      ],
+      [
+        "0",
+        "Time pressure"
+      ]
+    ],
+    "features": [
+      "16 worlds, from the first marble through walls, glue and stones to the master.",
+      "Deflectors send marbles round the corner, tubes carry them under walls.",
+      "A switch holds the gate open as long as a marble or a stone lies on it.",
+      "Paint pots recolour marbles, colour gates let only their colour pass, crumbling floor carries just once.",
+      "A proven best score for every level: the fewest moves earn three stars.",
+      "No luck, no time pressure: every tilt rolls exactly like that, every time."
+    ],
+    "stepsTitle": "Tilt, roll, sink them",
+    "steps": [
+      [
+        "Tilt",
+        "Swipe the board or tap one of the four arrows. The board tilts that way."
+      ],
+      [
+        "Roll",
+        "Every marble rolls at once, cell by cell, until something stops it. Another marble stops it too, and that is often the trick."
+      ],
+      [
+        "Sink them",
+        "Each marble wants the hole of its colour. You can always take a move back, and the best score earns three stars."
+      ]
+    ],
+    "worldsTitle": "16 worlds of 16 levels each",
+    "worlds": [
+      [
+        "Marble",
+        "One tilt"
+      ],
+      [
+        "Wall",
+        "Until it stops"
+      ],
+      [
+        "Colour",
+        "Each to its hole"
+      ],
+      [
+        "Jam",
+        "Marble to marble"
+      ],
+      [
+        "Glue",
+        "Here it stays"
+      ],
+      [
+        "Deflector",
+        "Round the corner"
+      ],
+      [
+        "Stone",
+        "Grey boulders"
+      ],
+      [
+        "One Way",
+        "Only one direction"
+      ],
+      [
+        "Tube",
+        "In and out"
+      ],
+      [
+        "Switch",
+        "Open and shut"
+      ],
+      [
+        "Three",
+        "Three colours"
+      ],
+      [
+        "Paint",
+        "A new colour"
+      ],
+      [
+        "Colour Gate",
+        "One colour only"
+      ],
+      [
+        "Crumble",
+        "Only once"
+      ],
+      [
+        "Maze",
+        "Big boards"
+      ],
+      [
+        "Master",
+        "Everything together"
+      ]
+    ],
+    "gallery": [
+      "Tilt the board. Every marble rolls. – Each one has to reach its own hole",
+      "Round the corner – Deflectors send every marble a new way",
+      "Into the tube – Out at the other end, on the same way",
+      "The switch opens the gate – As long as a marble or a stone lies on it",
+      "Paint it first, then through the gate – A colour gate lets only its colour pass",
+      "Few moves, three stars – Match the best score for three stars",
+      "256 levels – 16 worlds, from the first marble to the master"
+    ],
+    "phonesAlt": [
+      "KIPP home screen: the name K I P P, below it the world “Colour Gate” with 15 of 16 levels solved and the button “Keep playing”.",
+      "KIPP board, level 11 of the world “Master”: three marbles rolling across the board in the middle of a tilt, with holes in their colours, arrow cells, glue, a switch and a gate.",
+      "KIPP worlds overview with drawn boards: Three, Paint, Colour Gate, Crumble, Maze and Master."
+    ]
+  }
+}

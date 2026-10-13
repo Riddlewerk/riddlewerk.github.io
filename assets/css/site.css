@@ -65,6 +65,8 @@
   --violet-rgb: 167, 139, 250;
   --brass: #d9b36c;
   --brass-rgb: 217, 179, 108;
+  --cyan: #22d3ee;
+  --cyan-rgb: 34, 211, 238;
 
   --accent: var(--amber);
   --accent-rgb: var(--amber-rgb);
@@ -861,6 +863,11 @@ strong {
 .game--gang {
   --accent: var(--brass);
   --accent-rgb: var(--brass-rgb);
+}
+
+.game--kipp {
+  --accent: var(--cyan);
+  --accent-rgb: var(--cyan-rgb);
 }
 
 /* Every second game mirrors its layout, so a third or fourth game is one more <article>. */
