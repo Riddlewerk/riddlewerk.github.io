@@ -1,0 +1,28 @@
+/* Riddlewerk: WÜRFEL's flair, a narrow board in the page margin over which a cube rolls, picks up paint and stamps it
+   (flair-wuerfel.js). Wide screens only, nothing with reduced motion; never in the way of reading or
+   clicking. */
+
+.flair-wuerfel {
+  position: absolute;
+  /* Beside the hero or the card, set by the script. */
+  left: var(--flair-left, 0);
+  top: var(--flair-top, 0);
+  z-index: 0;
+  pointer-events: none;
+  transition: opacity 0.9s var(--ease, ease);
+}
+
+.flair-wuerfel.is-gone {
+  opacity: 0;
+}
+
+.flair-wuerfel svg {
+  display: block;
+  overflow: visible;
+}
+
+@media (max-width: 899px), (prefers-reduced-motion: reduce) {
+  .flair-wuerfel {
+    display: none;
+  }
+}

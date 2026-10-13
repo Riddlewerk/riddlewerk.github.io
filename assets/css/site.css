@@ -67,6 +67,8 @@
   --brass-rgb: 217, 179, 108;
   --cyan: #22d3ee;
   --cyan-rgb: 34, 211, 238;
+  --lime: #a3e635;
+  --lime-rgb: 163, 230, 53;
 
   --accent: var(--amber);
   --accent-rgb: var(--amber-rgb);
@@ -868,6 +870,11 @@ strong {
 .game--kipp {
   --accent: var(--cyan);
   --accent-rgb: var(--cyan-rgb);
+}
+
+.game--wuerfel {
+  --accent: var(--lime);
+  --accent-rgb: var(--lime-rgb);
 }
 
 /* Every second game mirrors its layout, so a third or fourth game is one more <article>. */

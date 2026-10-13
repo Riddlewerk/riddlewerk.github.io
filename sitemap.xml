@@ -133,6 +133,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/kipp/"/>
   </url>
   <url>
+    <loc>https://riddlewerk.com/wuerfel/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/wuerfel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/wuerfel/"/>
+  </url>
+  <url>
+    <loc>https://riddlewerk.com/en/wuerfel/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://riddlewerk.com/wuerfel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riddlewerk.com/en/wuerfel/"/>
+  </url>
+  <url>
     <loc>https://riddlewerk.com/privacy.html</loc>
     <lastmod>2026-10-13</lastmod>
   </url>

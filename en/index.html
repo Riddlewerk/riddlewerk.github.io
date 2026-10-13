@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <title>Riddlewerk – small, calm puzzle games</title>
-  <meta name="description" content="Riddlewerk is a small indie studio making puzzle games for phones. Our games: DREH, a word puzzle, ZEHN, a number puzzle, WERK, a conveyor-belt puzzle, GRIFF, a robot-arm puzzle, STROM, a circuit puzzle, GLEIS, a railway puzzle, SPIEGEL, a light puzzle, SCHATTEN, a 3D building puzzle, GANG, a gear puzzle, and KIPP, a tilt puzzle.">
+  <meta name="description" content="Riddlewerk is a small indie studio making puzzle games for phones. Our games: DREH, a word puzzle, ZEHN, a number puzzle, WERK, a conveyor-belt puzzle, GRIFF, a robot-arm puzzle, STROM, a circuit puzzle, GLEIS, a railway puzzle, SPIEGEL, a light puzzle, SCHATTEN, a 3D building puzzle, GANG, a gear puzzle, KIPP, a tilt puzzle, and WÜRFEL, a 3D cube puzzle.">
   <meta name="theme-color" content="#080D16">
   <meta name="color-scheme" content="dark">
   <link rel="canonical" href="https://riddlewerk.com/en/">
@@ -19,7 +19,7 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="de_DE">
   <meta property="og:title" content="Riddlewerk – small, calm puzzle games">
-  <meta property="og:description" content="An indie studio making puzzle games where the order of your moves is the puzzle. Coming soon: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS, SPIEGEL, SCHATTEN, GANG and KIPP.">
+  <meta property="og:description" content="An indie studio making puzzle games where the order of your moves is the puzzle. Coming soon: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS, SPIEGEL, SCHATTEN, GANG, KIPP and WÜRFEL.">
   <meta property="og:url" content="https://riddlewerk.com/en/">
   <meta property="og:image" content="https://riddlewerk.com/assets/img/og-image.png">
   <meta property="og:image:width" content="1200">
@@ -27,7 +27,7 @@
   <meta property="og:image:alt" content="The Riddlewerk wordmark spelled on game tiles, with the games DREH and ZEHN below.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Riddlewerk – small, calm puzzle games">
-  <meta name="twitter:description" content="An indie studio making puzzle games where the order of your moves is the puzzle. Coming soon: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS, SPIEGEL, SCHATTEN, GANG and KIPP.">
+  <meta name="twitter:description" content="An indie studio making puzzle games where the order of your moves is the puzzle. Coming soon: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS, SPIEGEL, SCHATTEN, GANG, KIPP and WÜRFEL.">
   <meta name="twitter:image" content="https://riddlewerk.com/assets/img/og-image.png">
 
   <link rel="icon" href="../favicon.ico" sizes="32x32">
@@ -51,6 +51,8 @@
   <script src="../assets/js/flair-gang.js" defer></script>
   <link rel="stylesheet" href="../assets/css/flair-kipp.css">
   <script src="../assets/js/flair-kipp.js" defer></script>
+  <link rel="stylesheet" href="../assets/css/flair-wuerfel.css">
+  <script src="../assets/js/flair-wuerfel.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -90,7 +92,7 @@
           </span>
         </h1>
         <p class="hero__lead">Small, calm puzzle games where the order of your moves is the puzzle.</p>
-        <p class="hero__sub">We are a small indie studio. Our games: DREH, a word puzzle, ZEHN, a number puzzle, WERK, a conveyor-belt puzzle, GRIFF, a robot-arm puzzle, STROM, a circuit puzzle, GLEIS, a railway puzzle, SPIEGEL, a light puzzle, SCHATTEN, a 3D building puzzle, GANG, a gear puzzle, and KIPP, a tilt puzzle – coming soon to Android and iPhone.</p>
+        <p class="hero__sub">We are a small indie studio. Our games: DREH, a word puzzle, ZEHN, a number puzzle, WERK, a conveyor-belt puzzle, GRIFF, a robot-arm puzzle, STROM, a circuit puzzle, GLEIS, a railway puzzle, SPIEGEL, a light puzzle, SCHATTEN, a 3D building puzzle, GANG, a gear puzzle, KIPP, a tilt puzzle, and WÜRFEL, a 3D cube puzzle – coming soon to Android and iPhone.</p>
         <div class="hero__actions">
           <a class="btn" href="#games">See the games
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
@@ -108,6 +110,7 @@
           <li><a class="chip" href="#schatten"><img src="../assets/img/schatten-icon-192.webp" width="40" height="40" alt=""><span>SCHATTEN<small>3D building puzzle</small></span></a></li>
           <li><a class="chip" href="#gang"><img src="../assets/img/gang-icon-192.webp" width="40" height="40" alt=""><span>GANG<small>Gear puzzle</small></span></a></li>
           <li><a class="chip" href="#kipp"><img src="../assets/img/kipp-icon-192.webp" width="40" height="40" alt=""><span>KIPP<small>Tilt puzzle</small></span></a></li>
+          <li><a class="chip" href="#wuerfel"><img src="../assets/img/wuerfel-icon-192.webp" width="40" height="40" alt=""><span>WÜRFEL<small>Cube puzzle</small></span></a></li>
         </ul>
       </div>
     </section>
@@ -121,7 +124,7 @@
         <div class="section-head">
           <p class="eyebrow">Our games</p>
           <h2 id="games-title">One&nbsp;start. One&nbsp;target. And the&nbsp;way between.</h2>
-          <p>Every level shows you where it starts and where it should end. In DREH and ZEHN you play cards to get there, each only as often as it allows. In WERK you build a machine, in GRIFF you program robot arms, in STROM you wire up a circuit, in GLEIS you lay track for trains that run to a timetable, in SPIEGEL you bend light with mirrors, in SCHATTEN you build a sculpture whose shadows have to fit exactly, in GANG you set gears until every dial turns just right, and in KIPP you tilt a board until every marble lies in its hole. How you get there is the whole puzzle.</p>
+          <p>Every level shows you where it starts and where it should end. In DREH and ZEHN you play cards to get there, each only as often as it allows. In WERK you build a machine, in GRIFF you program robot arms, in STROM you wire up a circuit, in GLEIS you lay track for trains that run to a timetable, in SPIEGEL you bend light with mirrors, in SCHATTEN you build a sculpture whose shadows have to fit exactly, in GANG you set gears until every dial turns just right, in KIPP you tilt a board until every marble lies in its hole, and in WÜRFEL you roll a cube until every colour is stamped where it belongs. How you get there is the whole puzzle.</p>
         </div>
 
         <div class="games">
@@ -655,6 +658,59 @@
               <p class="shot-caption">Screenshots from the current version of KIPP</p>
             </div>
           </article>
+          <!-- WÜRFEL -->
+          <article class="game game--wuerfel" id="wuerfel" aria-labelledby="wuerfel-title">
+            <div class="game__intro">
+              <div class="game__head">
+                <img class="game__icon" src="../assets/img/wuerfel-icon-192.webp" width="64" height="64" alt="WÜRFEL app icon">
+                <div>
+                  <p class="game__genre">3D cube puzzle</p>
+                  <h3 class="game__title" id="wuerfel-title">
+                    <span class="sr-only">WÜRFEL</span>
+                    <span class="keys keys--game" aria-hidden="true"><span class="key">W</span><span class="key">Ü</span><span class="key">R</span><span class="key">F</span><span class="key">E</span><span class="key">L</span></span>
+                  </h3>
+                </div>
+              </div>
+              <p class="game__tagline"><q>“Roll the cube. Pick up the colours. Stamp them down.”</q></p>
+              <div class="game__text">
+                <p>A cube stands on a small board, and every move tips it over an edge. Its faces pick up spots of paint and stamp them onto tiles of their colour. Holes, trampolines and portals lead across up to three floors, and you turn the camera round the board.</p>
+              </div>
+            </div>
+            <div class="game__details">
+              <ul class="stats" aria-label="WÜRFEL in numbers">
+                <li class="stat"><b>16</b><span>Worlds</span></li>
+                <li class="stat"><b>256</b><span>Levels</span></li>
+                <li class="stat"><b>3</b><span>Floors</span></li>
+                <li class="stat"><b>0</b><span>Time pressure</span></li>
+              </ul>
+              <ul class="features">
+                <li>16 worlds, from the first roll through spots, stamps and crowns to the master.</li>
+                <li>Real 3D: the cube visibly tips over its edge, and the camera turns round the board.</li>
+                <li>Holes, trampolines and portals lead across up to three floors.</li>
+                <li>A proven best score for every level: the fewest moves earn three stars.</li>
+                <li>No luck, no time pressure: every move rolls exactly the same, every time.</li>
+              </ul>
+              <ul class="availability" aria-label="Availability">
+                <li>Coming soon to Google Play</li>
+                <li>Coming soon to the App Store</li>
+              </ul>
+              <a class="game__more" href="wuerfel/">More about WÜRFEL<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
+            <div class="game__visual">
+              <div class="phones">
+                <figure class="phone phone--side phone--left">
+                  <img src="../assets/img/wuerfel-home-en-320.webp" srcset="../assets/img/wuerfel-home-en-320.webp 320w, ../assets/img/wuerfel-home-en-640.webp 640w" sizes="(max-width: 599px) 150px, 190px" width="320" height="692" loading="lazy" decoding="async" alt="WÜRFEL home screen: the wordmark W Ü R F E L, below it the world “Tower” with 15 of 16 levels solved and the “Keep playing” button.">
+                </figure>
+                <figure class="phone">
+                  <img src="../assets/img/wuerfel-board-en-320.webp" srcset="../assets/img/wuerfel-board-en-320.webp 320w, ../assets/img/wuerfel-board-en-640.webp 640w" sizes="(max-width: 599px) 184px, 236px" width="320" height="692" loading="lazy" decoding="async" alt="WÜRFEL board in 3D, level 5 of the world “Master”: the cube with a green top stands on the lower of two floors, prints of its faces round it, with a stamp tile, a crown goal, portals and a turntable.">
+                </figure>
+                <figure class="phone phone--side phone--right">
+                  <img src="../assets/img/wuerfel-worlds-en-320.webp" srcset="../assets/img/wuerfel-worlds-en-320.webp 320w, ../assets/img/wuerfel-worlds-en-640.webp 640w" sizes="(max-width: 599px) 150px, 190px" width="320" height="692" loading="lazy" decoding="async" alt="WÜRFEL world overview with drawn boards: Water, Turn, Tower, Art, Many and Master.">
+                </figure>
+              </div>
+              <p class="shot-caption">Screenshots from the current version of WÜRFEL</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -668,7 +724,7 @@
             <h2 id="studio-title">The order is the puzzle.</h2>
             <p>Riddlewerk is a small indie studio making puzzle games for phones. We build small, calm games that fit into a break and still give you a real aha moment.</p>
             <p>They all share one idea: you see the start and the target, and you hold every card in your hand. Nothing is hidden, nothing comes down to luck. Whether you get there depends only on the order you play in.</p>
-            <p>DREH does it with words, ZEHN with numbers. In WERK you build the order yourself: a machine of belts and splitters that runs tick by tick. GRIFF turns it into programs for robot arms, STROM into a circuit that current flows through step by step, GLEIS into a railway where every train has to arrive on its timetable. SPIEGEL bends light over mirrors and prisms until every target glows in its colour. SCHATTEN goes into the third dimension: a sculpture of cubes whose shadows have to fit exactly from three sides. GANG does the sums with gears: small meshes with large, and a summing gear adds two speeds, until every dial turns exactly as fast as it should. KIPP rolls every marble at once: each tilt moves every marble, and deflectors, tubes and gates decide where it ends up.</p>
+            <p>DREH does it with words, ZEHN with numbers. In WERK you build the order yourself: a machine of belts and splitters that runs tick by tick. GRIFF turns it into programs for robot arms, STROM into a circuit that current flows through step by step, GLEIS into a railway where every train has to arrive on its timetable. SPIEGEL bends light over mirrors and prisms until every target glows in its colour. SCHATTEN goes into the third dimension: a sculpture of cubes whose shadows have to fit exactly from three sides. GANG does the sums with gears: small meshes with large, and a summing gear adds two speeds, until every dial turns exactly as fast as it should. KIPP rolls every marble at once: each tilt moves every marble, and deflectors, tubes and gates decide where it ends up. WÜRFEL rolls in 3D across several floors: which face lands where is the puzzle.</p>
           </div>
 
           <div class="demo" id="try" data-demo data-start="worm" data-target="cow" aria-labelledby="demo-title">
@@ -792,6 +848,7 @@
             <li><a href="schatten/">SCHATTEN</a></li>
             <li><a href="gang/">GANG</a></li>
             <li><a href="kipp/">KIPP</a></li>
+            <li><a href="wuerfel/">WÜRFEL</a></li>
           </ul>
         </nav>
         <nav class="footer-col" aria-labelledby="f-studio">

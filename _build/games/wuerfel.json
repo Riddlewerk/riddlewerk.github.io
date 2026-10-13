@@ -1,0 +1,284 @@
+{
+  "id": "wuerfel",
+  "order": 11,
+  "letters": "WÜRFEL",
+  "flair": "wuerfel",
+  "media": {
+    "video": true,
+    "og": true,
+    "gallery": 8,
+    "phones": [
+      "home",
+      "board",
+      "worlds"
+    ]
+  },
+  "de": {
+    "name": "WÜRFEL",
+    "genre": "Würfel-Rätsel",
+    "title": "WÜRFEL – Würfel-Rätsel in 3D für Android und iPhone | Riddlewerk",
+    "description": "WÜRFEL ist ein ruhiges Würfel-Rätsel in 3D: Roll den Würfel, nimm Farben auf, stempel sie ab, über Stockwerke, Löcher und Portale. 256 Level in 16 Welten.",
+    "tagline": "Roll den Würfel. Nimm die Farben auf. Stempel sie ab.",
+    "lead": [
+      "Ein Würfel steht auf einem kleinen Brett. Jeder Zug kippt ihn über eine Kante ins Nachbarfeld, und seine sechs Seiten wandern mit. Landet eine saubere Seite auf einem Farbfleck, nimmt sie die Farbe auf; auf einem Stempelfeld muss unten genau seine Farbe sein. Gelöst ist das Level, wenn alle Flecken aufgenommen, alle Stempel gesetzt sind und der Würfel im Ziel steht.",
+      "Später stapeln sich die Bretter zu bis zu drei Stockwerken: Durch ein Loch fällt der Würfel eine Ebene tiefer, ein Trampolin wirft ihn eine Ebene hoch, Portale verbinden Felder auch über Stockwerke hinweg. Die Kamera drehst du in Vierteln um das Brett, so siehst du jede Seite."
+    ],
+    "stats": [
+      [
+        "16",
+        "Welten"
+      ],
+      [
+        "256",
+        "Level"
+      ],
+      [
+        "3",
+        "Stockwerke"
+      ],
+      [
+        "0",
+        "Zeitdruck"
+      ]
+    ],
+    "features": [
+      "16 Welten, vom ersten Rollen über Flecken, Stempel und Kronen bis zum Meister.",
+      "Echtes 3D: Der Würfel kippt sichtbar über die Kante, die Kamera dreht sich um das Brett.",
+      "Löcher, Trampoline und Portale führen über bis zu drei Stockwerke.",
+      "Waschbecken machen eine Seite wieder sauber, Drehteller drehen den Würfel auf der Stelle.",
+      "Ein bewiesener Bestwert pro Level: Mit den wenigsten Zügen gibt es drei Sterne.",
+      "Kein Glück, kein Zeitdruck: Jeder Zug rollt genau so, jedes Mal."
+    ],
+    "stepsTitle": "Rollen, aufnehmen, stempeln",
+    "steps": [
+      [
+        "Rollen",
+        "Wisch über das Brett, tipp auf einen der vier Pfeile oder nimm die Pfeiltasten. Der Würfel kippt ein Feld weiter."
+      ],
+      [
+        "Aufnehmen",
+        "Landet eine saubere Seite auf einem Farbfleck, nimmt sie die Farbe auf. Schatten und Abdrücke zeigen dir, welche Seite wo landet."
+      ],
+      [
+        "Stempeln",
+        "Auf einem Stempelfeld muss unten seine Farbe sein. Sind alle Flecken weg und alle Stempel gesetzt, roll ins Ziel."
+      ]
+    ],
+    "worldsTitle": "16 Welten mit je 16 Leveln",
+    "worlds": [
+      [
+        "Rollen",
+        "Bis ins Ziel"
+      ],
+      [
+        "Bunt",
+        "Farbe abgeben"
+      ],
+      [
+        "Fleck",
+        "Farbe aufnehmen"
+      ],
+      [
+        "Paar",
+        "Zwei Flecken"
+      ],
+      [
+        "Stempel",
+        "Erst holen, dann stempeln"
+      ],
+      [
+        "Krone",
+        "Farbe nach oben"
+      ],
+      [
+        "Sauber",
+        "Nur saubere Seiten"
+      ],
+      [
+        "Loch",
+        "Ein Stockwerk tiefer"
+      ],
+      [
+        "Sprung",
+        "Ein Stockwerk höher"
+      ],
+      [
+        "Portal",
+        "Hier rein, dort raus"
+      ],
+      [
+        "Wasser",
+        "Wieder sauber"
+      ],
+      [
+        "Dreh",
+        "Eine Vierteldrehung"
+      ],
+      [
+        "Turm",
+        "Drei Stockwerke"
+      ],
+      [
+        "Kunst",
+        "Bunt gestempelt"
+      ],
+      [
+        "Viele",
+        "Mehr Farbe als Seiten"
+      ],
+      [
+        "Meister",
+        "Alles zusammen"
+      ]
+    ],
+    "gallery": [
+      "Roll den Würfel. Jede Seite zählt. – Farben aufnehmen, abstempeln, ins Ziel",
+      "Nimm die Farbe auf – Eine saubere Seite nimmt den Fleck auf, auf dem sie landet",
+      "Stempel sie ab – Unten muss die Farbe des Stempelfelds sein",
+      "Durchs Loch eine Ebene tiefer – Der Würfel fällt, ohne sich zu drehen",
+      "Mit dem Trampolin nach oben – Ein Stockwerk hoch und zwei Felder weiter",
+      "Portale verbinden Stockwerke – Rein auf der einen Ebene, raus auf der anderen",
+      "Dreh die Kamera – Bis zu 3 Stockwerke, von jeder Seite",
+      "256 Level – 16 Welten, vom ersten Rollen bis zum Meister"
+    ],
+    "phonesAlt": [
+      "WÜRFEL-Startbildschirm: Schriftzug W Ü R F E L, darunter die Welt „Turm“ mit 15 von 16 gelösten Leveln und der Knopf „Weiterspielen“.",
+      "WÜRFEL-Spielfeld in 3D, Level 5 der Welt „Meister“: Der Würfel mit grüner Oberseite steht auf dem unteren von zwei Stockwerken, um ihn Abdrücke seiner Seiten, dazu ein Stempelfeld, ein Kronenziel, Portale und ein Drehteller.",
+      "WÜRFEL-Weltenübersicht mit gezeichneten Brettern: Wasser, Dreh, Turm, Kunst, Viele und Meister."
+    ]
+  },
+  "en": {
+    "name": "WÜRFEL",
+    "genre": "Cube puzzle",
+    "title": "WÜRFEL – 3D cube puzzle for Android and iPhone | Riddlewerk",
+    "description": "WÜRFEL is a calm 3D cube puzzle: roll the cube, pick up colours, stamp them down, across floors, holes and portals. 256 levels in 16 worlds.",
+    "tagline": "Roll the cube. Pick up the colours. Stamp them down.",
+    "lead": [
+      "A cube stands on a small board. Every move tips it over an edge onto the next cell, and its six faces travel with it. When a clean face lands on a spot of paint it picks up the colour; a stamp tile wants exactly its colour underneath. A level is solved when every spot is picked up, every stamp is set and the cube stands on the goal.",
+      "Later the boards stack up to three floors: a hole drops the cube one floor down, a trampoline throws it one floor up, and portals link cells even across floors. You turn the camera round the board in quarters, so you can see every side."
+    ],
+    "stats": [
+      [
+        "16",
+        "worlds"
+      ],
+      [
+        "256",
+        "levels"
+      ],
+      [
+        "3",
+        "floors"
+      ],
+      [
+        "0",
+        "time pressure"
+      ]
+    ],
+    "features": [
+      "16 worlds, from the first roll through spots, stamps and crowns to the master.",
+      "Real 3D: the cube visibly tips over its edge, and the camera turns round the board.",
+      "Holes, trampolines and portals lead across up to three floors.",
+      "Wash basins clean a face again, turntables turn the cube on the spot.",
+      "A proven best score for every level: the fewest moves earn three stars.",
+      "No luck, no time pressure: every move rolls exactly the same, every time."
+    ],
+    "stepsTitle": "Roll, pick up, stamp",
+    "steps": [
+      [
+        "Roll",
+        "Swipe across the board, tap one of the four arrows or use the arrow keys. The cube tips over onto the next cell."
+      ],
+      [
+        "Pick up",
+        "When a clean face lands on a spot of paint, it takes the colour. Its shadow and the prints round it show which face lands where."
+      ],
+      [
+        "Stamp",
+        "A stamp tile wants its colour underneath. Once every spot is gone and every stamp is set, roll onto the goal."
+      ]
+    ],
+    "worldsTitle": "16 worlds of 16 levels each",
+    "worlds": [
+      [
+        "Rolling",
+        "To the goal"
+      ],
+      [
+        "Painted",
+        "Handing paint over"
+      ],
+      [
+        "Spot",
+        "Picking up paint"
+      ],
+      [
+        "Pair",
+        "Two spots"
+      ],
+      [
+        "Stamp",
+        "Pick up, then stamp"
+      ],
+      [
+        "Crown",
+        "Colour on top"
+      ],
+      [
+        "Clean",
+        "Clean sides only"
+      ],
+      [
+        "Hole",
+        "A floor down"
+      ],
+      [
+        "Jump",
+        "A floor up"
+      ],
+      [
+        "Portal",
+        "In here, out there"
+      ],
+      [
+        "Water",
+        "Clean again"
+      ],
+      [
+        "Turn",
+        "A quarter turn"
+      ],
+      [
+        "Tower",
+        "Three floors"
+      ],
+      [
+        "Art",
+        "Stamped in colour"
+      ],
+      [
+        "Many",
+        "More paint than faces"
+      ],
+      [
+        "Master",
+        "Everything together"
+      ]
+    ],
+    "gallery": [
+      "Roll the cube. Every face counts. – Pick up colours, stamp them, reach the goal",
+      "Pick up the colour – A clean face takes the spot it lands on",
+      "Stamp it down – The face underneath must match the stamp tile",
+      "Through the hole, one floor down – The cube drops without turning",
+      "Up with the trampoline – One floor up and two cells on",
+      "Portals link the floors – In on one floor, out on another",
+      "Turn the camera – Up to 3 floors, from every side",
+      "256 levels – 16 worlds, from the first roll to the master"
+    ],
+    "phonesAlt": [
+      "WÜRFEL home screen: the wordmark W Ü R F E L, below it the world “Tower” with 15 of 16 levels solved and the “Keep playing” button.",
+      "WÜRFEL board in 3D, level 5 of the world “Master”: the cube with a green top stands on the lower of two floors, prints of its faces round it, with a stamp tile, a crown goal, portals and a turntable.",
+      "WÜRFEL world overview with drawn boards: Water, Turn, Tower, Art, Many and Master."
+    ]
+  }
+}

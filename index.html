@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <title>Riddlewerk – kleine, ruhige Rätselspiele</title>
-  <meta name="description" content="Riddlewerk ist ein kleines Indie-Studio für Rätselspiele auf dem Handy. Unsere Spiele: DREH, ein Worträtsel, ZEHN, ein Zahlenrätsel, WERK, ein Fließband-Rätsel, GRIFF, ein Roboterarm-Rätsel, STROM, ein Schaltungs-Rätsel, GLEIS, ein Eisenbahn-Rätsel, SPIEGEL, ein Licht-Rätsel, SCHATTEN, ein Bau-Rätsel in 3D, GANG, ein Zahnrad-Rätsel, und KIPP, ein Kipp-Rätsel.">
+  <meta name="description" content="Riddlewerk ist ein kleines Indie-Studio für Rätselspiele auf dem Handy. Unsere Spiele: DREH, ein Worträtsel, ZEHN, ein Zahlenrätsel, WERK, ein Fließband-Rätsel, GRIFF, ein Roboterarm-Rätsel, STROM, ein Schaltungs-Rätsel, GLEIS, ein Eisenbahn-Rätsel, SPIEGEL, ein Licht-Rätsel, SCHATTEN, ein Bau-Rätsel in 3D, GANG, ein Zahnrad-Rätsel, KIPP, ein Kipp-Rätsel, und WÜRFEL, ein Würfel-Rätsel in 3D.">
   <meta name="theme-color" content="#080D16">
   <meta name="color-scheme" content="dark">
   <link rel="canonical" href="https://riddlewerk.com/">
@@ -19,7 +19,7 @@
   <meta property="og:locale" content="de_DE">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:title" content="Riddlewerk – kleine, ruhige Rätselspiele">
-  <meta property="og:description" content="Ein Indie-Studio für Rätselspiele, in denen die Reihenfolge der Züge das Rätsel ist. Bald: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS, SPIEGEL, SCHATTEN, GANG und KIPP.">
+  <meta property="og:description" content="Ein Indie-Studio für Rätselspiele, in denen die Reihenfolge der Züge das Rätsel ist. Bald: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS, SPIEGEL, SCHATTEN, GANG, KIPP und WÜRFEL.">
   <meta property="og:url" content="https://riddlewerk.com/">
   <meta property="og:image" content="https://riddlewerk.com/assets/img/og-image.png">
   <meta property="og:image:width" content="1200">
@@ -27,7 +27,7 @@
   <meta property="og:image:alt" content="Der Riddlewerk-Schriftzug aus Spielsteinen, darunter die Spiele DREH und ZEHN.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Riddlewerk – kleine, ruhige Rätselspiele">
-  <meta name="twitter:description" content="Ein Indie-Studio für Rätselspiele, in denen die Reihenfolge der Züge das Rätsel ist. Bald: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS, SPIEGEL, SCHATTEN, GANG und KIPP.">
+  <meta name="twitter:description" content="Ein Indie-Studio für Rätselspiele, in denen die Reihenfolge der Züge das Rätsel ist. Bald: DREH, ZEHN, WERK, GRIFF, STROM, GLEIS, SPIEGEL, SCHATTEN, GANG, KIPP und WÜRFEL.">
   <meta name="twitter:image" content="https://riddlewerk.com/assets/img/og-image.png">
 
   <link rel="icon" href="favicon.ico" sizes="32x32">
@@ -51,6 +51,8 @@
   <script src="assets/js/flair-gang.js" defer></script>
   <link rel="stylesheet" href="assets/css/flair-kipp.css">
   <script src="assets/js/flair-kipp.js" defer></script>
+  <link rel="stylesheet" href="assets/css/flair-wuerfel.css">
+  <script src="assets/js/flair-wuerfel.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
@@ -90,7 +92,7 @@
           </span>
         </h1>
         <p class="hero__lead">Kleine, ruhige Rätselspiele, in denen die Reihenfolge der Züge das Rätsel ist.</p>
-        <p class="hero__sub">Wir sind ein kleines Indie-Studio. Unsere Spiele: DREH, ein Worträtsel, ZEHN, ein Zahlenrätsel, WERK, ein Fließband-Rätsel, GRIFF, ein Roboterarm-Rätsel, STROM, ein Schaltungs-Rätsel, GLEIS, ein Eisenbahn-Rätsel, SPIEGEL, ein Licht-Rätsel, SCHATTEN, ein Bau-Rätsel in 3D, GANG, ein Zahnrad-Rätsel, und KIPP, ein Kipp-Rätsel – bald für Android und iPhone.</p>
+        <p class="hero__sub">Wir sind ein kleines Indie-Studio. Unsere Spiele: DREH, ein Worträtsel, ZEHN, ein Zahlenrätsel, WERK, ein Fließband-Rätsel, GRIFF, ein Roboterarm-Rätsel, STROM, ein Schaltungs-Rätsel, GLEIS, ein Eisenbahn-Rätsel, SPIEGEL, ein Licht-Rätsel, SCHATTEN, ein Bau-Rätsel in 3D, GANG, ein Zahnrad-Rätsel, KIPP, ein Kipp-Rätsel, und WÜRFEL, ein Würfel-Rätsel in 3D – bald für Android und iPhone.</p>
         <div class="hero__actions">
           <a class="btn" href="#spiele">Zu den Spielen
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
@@ -108,6 +110,7 @@
           <li><a class="chip" href="#schatten"><img src="assets/img/schatten-icon-192.webp" width="40" height="40" alt=""><span>SCHATTEN<small>Bau-Rätsel in 3D</small></span></a></li>
           <li><a class="chip" href="#gang"><img src="assets/img/gang-icon-192.webp" width="40" height="40" alt=""><span>GANG<small>Zahnrad-Rätsel</small></span></a></li>
           <li><a class="chip" href="#kipp"><img src="assets/img/kipp-icon-192.webp" width="40" height="40" alt=""><span>KIPP<small>Kipp-Rätsel</small></span></a></li>
+          <li><a class="chip" href="#wuerfel"><img src="assets/img/wuerfel-icon-192.webp" width="40" height="40" alt=""><span>WÜRFEL<small>Würfel-Rätsel</small></span></a></li>
         </ul>
       </div>
     </section>
@@ -121,7 +124,7 @@
         <div class="section-head">
           <p class="eyebrow">Unsere Spiele</p>
           <h2 id="spiele-title">Ein&nbsp;Start. Ein&nbsp;Ziel. Und der&nbsp;Weg dazwischen.</h2>
-          <p>Jedes Level zeigt dir, wo es losgeht und wo es hingehen soll. In DREH und ZEHN spielst du dafür Karten, und jede Karte nur so oft, wie sie es erlaubt. In WERK baust du eine Maschine, in GRIFF programmierst du Roboterarme, in STROM verdrahtest du eine Schaltung, in GLEIS legst du Gleise für Züge mit Fahrplan, in SPIEGEL lenkst du Licht mit Spiegeln, in SCHATTEN baust du eine Skulptur, deren Schatten genau passen müssen, in GANG setzt du Zahnräder, bis jeder Zeiger richtig dreht, und in KIPP kippst du ein Brett, bis jede Kugel in ihrem Loch liegt. Wie du ankommst, ist das ganze Rätsel.</p>
+          <p>Jedes Level zeigt dir, wo es losgeht und wo es hingehen soll. In DREH und ZEHN spielst du dafür Karten, und jede Karte nur so oft, wie sie es erlaubt. In WERK baust du eine Maschine, in GRIFF programmierst du Roboterarme, in STROM verdrahtest du eine Schaltung, in GLEIS legst du Gleise für Züge mit Fahrplan, in SPIEGEL lenkst du Licht mit Spiegeln, in SCHATTEN baust du eine Skulptur, deren Schatten genau passen müssen, in GANG setzt du Zahnräder, bis jeder Zeiger richtig dreht, in KIPP kippst du ein Brett, bis jede Kugel in ihrem Loch liegt, und in WÜRFEL rollst du einen Würfel, bis jede Farbe dort abgestempelt ist, wo sie hingehört. Wie du ankommst, ist das ganze Rätsel.</p>
         </div>
 
         <div class="games">
@@ -655,6 +658,59 @@
               <p class="shot-caption">Screenshots aus der aktuellen Version von KIPP</p>
             </div>
           </article>
+          <!-- WÜRFEL -->
+          <article class="game game--wuerfel" id="wuerfel" aria-labelledby="wuerfel-title">
+            <div class="game__intro">
+              <div class="game__head">
+                <img class="game__icon" src="assets/img/wuerfel-icon-192.webp" width="64" height="64" alt="App-Symbol von WÜRFEL">
+                <div>
+                  <p class="game__genre">Würfel-Rätsel in 3D</p>
+                  <h3 class="game__title" id="wuerfel-title">
+                    <span class="sr-only">WÜRFEL</span>
+                    <span class="keys keys--game" aria-hidden="true"><span class="key">W</span><span class="key">Ü</span><span class="key">R</span><span class="key">F</span><span class="key">E</span><span class="key">L</span></span>
+                  </h3>
+                </div>
+              </div>
+              <p class="game__tagline"><q>„Roll den Würfel. Nimm die Farben auf. Stempel sie ab.“</q></p>
+              <div class="game__text">
+                <p>Ein Würfel steht auf einem kleinen Brett, und jeder Zug kippt ihn über eine Kante. Seine Seiten nehmen Farbflecken auf und stempeln sie auf Felder ihrer Farbe. Löcher, Trampoline und Portale führen über bis zu drei Stockwerke, und die Kamera drehst du um das Brett.</p>
+              </div>
+            </div>
+            <div class="game__details">
+              <ul class="stats" aria-label="WÜRFEL in Zahlen">
+                <li class="stat"><b>16</b><span>Welten</span></li>
+                <li class="stat"><b>256</b><span>Level</span></li>
+                <li class="stat"><b>3</b><span>Stockwerke</span></li>
+                <li class="stat"><b>0</b><span>Zeitdruck</span></li>
+              </ul>
+              <ul class="features">
+                <li>16 Welten, vom ersten Rollen über Flecken, Stempel und Kronen bis zum Meister.</li>
+                <li>Echtes 3D: Der Würfel kippt sichtbar über die Kante, die Kamera dreht sich um das Brett.</li>
+                <li>Löcher, Trampoline und Portale führen über bis zu drei Stockwerke.</li>
+                <li>Ein bewiesener Bestwert pro Level: Mit den wenigsten Zügen gibt es drei Sterne.</li>
+                <li>Kein Glück, kein Zeitdruck: Jeder Zug rollt genau so, jedes Mal.</li>
+              </ul>
+              <ul class="availability" aria-label="Verfügbarkeit">
+                <li>Bald bei Google Play</li>
+                <li>Bald im App Store</li>
+              </ul>
+              <a class="game__more" href="wuerfel/">Mehr zu WÜRFEL<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
+            <div class="game__visual">
+              <div class="phones">
+                <figure class="phone phone--side phone--left">
+                  <img src="assets/img/wuerfel-home-de-320.webp" srcset="assets/img/wuerfel-home-de-320.webp 320w, assets/img/wuerfel-home-de-640.webp 640w" sizes="(max-width: 599px) 150px, 190px" width="320" height="692" loading="lazy" decoding="async" alt="WÜRFEL-Startbildschirm: Schriftzug W Ü R F E L, darunter die Welt „Turm“ mit 15 von 16 gelösten Leveln und der Knopf „Weiterspielen“.">
+                </figure>
+                <figure class="phone">
+                  <img src="assets/img/wuerfel-board-de-320.webp" srcset="assets/img/wuerfel-board-de-320.webp 320w, assets/img/wuerfel-board-de-640.webp 640w" sizes="(max-width: 599px) 184px, 236px" width="320" height="692" loading="lazy" decoding="async" alt="WÜRFEL-Spielfeld in 3D, Level 5 der Welt „Meister“: Der Würfel mit grüner Oberseite steht auf dem unteren von zwei Stockwerken, um ihn Abdrücke seiner Seiten, dazu ein Stempelfeld, ein Kronenziel, Portale und ein Drehteller.">
+                </figure>
+                <figure class="phone phone--side phone--right">
+                  <img src="assets/img/wuerfel-worlds-de-320.webp" srcset="assets/img/wuerfel-worlds-de-320.webp 320w, assets/img/wuerfel-worlds-de-640.webp 640w" sizes="(max-width: 599px) 150px, 190px" width="320" height="692" loading="lazy" decoding="async" alt="WÜRFEL-Weltenübersicht mit gezeichneten Brettern: Wasser, Dreh, Turm, Kunst, Viele und Meister.">
+                </figure>
+              </div>
+              <p class="shot-caption">Screenshots aus der aktuellen Version von WÜRFEL</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -668,7 +724,7 @@
             <h2 id="studio-title">Die Reihenfolge ist das Rätsel.</h2>
             <p>Riddlewerk ist ein kleines Indie-Studio für Rätselspiele auf dem Handy. Wir bauen kleine, ruhige Spiele, die in eine Pause passen und trotzdem einen echten Aha-Moment haben.</p>
             <p>Alle folgen derselben Idee: Du siehst Start und Ziel und hältst alle Karten in der Hand. Nichts ist versteckt, nichts hängt vom Glück ab. Ob du ankommst, entscheidet allein die Reihenfolge, in der du spielst.</p>
-            <p>DREH macht das mit Wörtern, ZEHN mit Zahlen. In WERK baust du die Reihenfolge selbst: als Maschine aus Bändern und Weichen, die Takt für Takt abläuft. GRIFF macht daraus Programme für Roboterarme, STROM eine Schaltung, durch die der Strom Schritt für Schritt fließt, GLEIS ein Gleisnetz, auf dem jeder Zug nach seinem Fahrplan ankommen muss. SPIEGEL lenkt Licht über Spiegel und Prismen, bis jedes Ziel in seiner Farbe leuchtet. SCHATTEN geht in die dritte Dimension: eine Skulptur aus Würfeln, deren Schatten von drei Seiten genau passen müssen. GANG rechnet mit Zahnrädern: Klein greift in groß, ein Summierer zählt zwei Tempi zusammen, bis jeder Zeiger genau so schnell dreht, wie er soll. KIPP lässt alle Kugeln zugleich rollen: Jedes Kippen bewegt jede Kugel, und Umlenker, Röhren und Tore entscheiden, wo sie ankommt.</p>
+            <p>DREH macht das mit Wörtern, ZEHN mit Zahlen. In WERK baust du die Reihenfolge selbst: als Maschine aus Bändern und Weichen, die Takt für Takt abläuft. GRIFF macht daraus Programme für Roboterarme, STROM eine Schaltung, durch die der Strom Schritt für Schritt fließt, GLEIS ein Gleisnetz, auf dem jeder Zug nach seinem Fahrplan ankommen muss. SPIEGEL lenkt Licht über Spiegel und Prismen, bis jedes Ziel in seiner Farbe leuchtet. SCHATTEN geht in die dritte Dimension: eine Skulptur aus Würfeln, deren Schatten von drei Seiten genau passen müssen. GANG rechnet mit Zahnrädern: Klein greift in groß, ein Summierer zählt zwei Tempi zusammen, bis jeder Zeiger genau so schnell dreht, wie er soll. KIPP lässt alle Kugeln zugleich rollen: Jedes Kippen bewegt jede Kugel, und Umlenker, Röhren und Tore entscheiden, wo sie ankommt. WÜRFEL rollt in 3D über mehrere Stockwerke: Welche Seite wo landet, ist das Rätsel.</p>
           </div>
 
           <div class="demo" id="probieren" data-demo data-start="laus" data-target="wal" aria-labelledby="demo-title">
@@ -792,6 +848,7 @@
             <li><a href="schatten/">SCHATTEN</a></li>
             <li><a href="gang/">GANG</a></li>
             <li><a href="kipp/">KIPP</a></li>
+            <li><a href="wuerfel/">WÜRFEL</a></li>
           </ul>
         </nav>
         <nav class="footer-col" aria-labelledby="f-studio">
