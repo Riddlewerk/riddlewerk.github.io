@@ -10,6 +10,7 @@ import { fileURLToPath } from 'node:url';
 const SITE = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORIGIN = 'https://riddlewerk.com';
 const CONTACT = 'riddlewerk@gmail.com';
+const ARROW = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 
 const games = readdirSync(join(SITE, '_build/games'))
   .filter((f) => f.endsWith('.json'))
@@ -41,6 +42,9 @@ const UI = {
     onPlay: 'Bei Google Play',
     availability: 'Verfügbarkeit',
     testAnchor: 'testen',
+    testersAnchor: 'tester',
+    testersNav: 'Tester werden',
+    testersBar: 'Tester gesucht – jetzt melden',
     testAction: 'Tester werden',
     testEyebrow: 'Tester gesucht',
     testTitle: (n) => `Spiel ${n} vor allen anderen`,
@@ -109,6 +113,9 @@ const UI = {
     onPlay: 'Get it on Google Play',
     availability: 'Availability',
     testAnchor: 'test',
+    testersAnchor: 'testers',
+    testersNav: 'Become a tester',
+    testersBar: 'Testers wanted – sign up',
     testAction: 'Become a tester',
     testEyebrow: 'Testers wanted',
     testTitle: (n) => `Play ${n} before everyone else`,
@@ -212,12 +219,14 @@ function header(ui, w, lang) {
         <a href="${w.siteHome}#${ui.gamesAnchor}">${esc(ui.games)}</a>
         <a href="${w.siteHome}#${ui.studioAnchor}">${esc(ui.studio)}</a>
         <a href="${w.siteHome}#${ui.contactAnchor}">${esc(ui.contact)}</a>
+        <a class="nav__cta" href="${w.siteHome}#${ui.testersAnchor}">${esc(ui.testersNav)}</a>
       </nav>
       <nav class="lang" aria-label="${esc(ui.langNav)}">
         <a href="${w.dePage}" hreflang="de" lang="de"${cur('de')}><span class="sr-only">Deutsch</span><span aria-hidden="true">DE</span></a>
         <a href="${w.enPage}" hreflang="en" lang="en"${cur('en')}><span class="sr-only">English</span><span aria-hidden="true">EN</span></a>
       </nav>
     </div>
+    <a class="header-bar" href="${w.siteHome}#${ui.testersAnchor}">${esc(ui.testersBar)}${ARROW}</a>
   </header>`;
 }
 
