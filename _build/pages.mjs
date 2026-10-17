@@ -9,6 +9,7 @@ import { fileURLToPath } from 'node:url';
 
 const SITE = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORIGIN = 'https://riddlewerk.com';
+const CONTACT = 'riddlewerk@gmail.com';
 
 const games = readdirSync(join(SITE, '_build/games'))
   .filter((f) => f.endsWith('.json'))
@@ -37,7 +38,25 @@ const UI = {
     look: 'Bilder ansehen',
     icon: (n) => `App-Symbol von ${n}`,
     soon: ['Bald bei Google Play', 'Bald im App Store'],
+    onPlay: 'Bei Google Play',
     availability: 'Verfügbarkeit',
+    testAnchor: 'testen',
+    testAction: 'Tester werden',
+    testEyebrow: 'Tester gesucht',
+    testTitle: (n) => `Spiel ${n} vor allen anderen`,
+    testLead: (n) =>
+      `Bevor ${n} bei Google Play erscheint, braucht es mindestens 12 Tester, die das Spiel 14 Tage lang auf ihrem Android-Handy behalten. Die ersten 20 Tester nennen wir zum Release auf Wunsch namentlich in den Credits.`,
+    testButton: 'Als Tester melden',
+    testSteps: (n) => [
+      ['1 · Melden', 'Schick uns die E-Mail-Adresse deines Google-Kontos – die, mit der du im Play Store angemeldet bist.'],
+      ['2 · Installieren', `Wir tragen dich ein und schicken dir den Test-Link. Darüber lädst du ${n} ganz normal aus dem Play Store.`],
+      ['3 · Dabeibleiben', 'Spiel, so viel du magst, und lass die App 14 Tage installiert. Über Feedback per E-Mail freuen wir uns.'],
+      ['Nur Android', 'Das iPhone folgt später.'],
+    ],
+    testMail: (n) => [
+      `${n} – Tester`,
+      `Hallo Riddlewerk,\n\nich möchte ${n} testen.\n\nE-Mail-Adresse meines Google-Kontos (Play Store): \nName für die Credits (optional): \n`,
+    ],
     videoEyebrow: 'Video',
     videoTitle: (n) => `${n} in Bewegung`,
     videoCaption: 'Der Trailer zeigt echte Level, gelöst mit den Regeln des Spiels, und die Musik aus dem Spiel.',
@@ -87,7 +106,25 @@ const UI = {
     look: 'See the pictures',
     icon: (n) => `${n} app icon`,
     soon: ['Coming to Google Play', 'Coming to the App Store'],
+    onPlay: 'Get it on Google Play',
     availability: 'Availability',
+    testAnchor: 'test',
+    testAction: 'Become a tester',
+    testEyebrow: 'Testers wanted',
+    testTitle: (n) => `Play ${n} before everyone else`,
+    testLead: (n) =>
+      `Before ${n} can launch on Google Play, it needs at least 12 testers who keep it on their Android phone for 14 days. The first 20 testers get named in the credits at launch, if they like.`,
+    testButton: 'Sign up as a tester',
+    testSteps: (n) => [
+      ['1 · Sign up', 'Send us the email address of your Google account – the one you use in the Play Store.'],
+      ['2 · Install', `We add you and reply with the test link. It installs ${n} from the Play Store like any other app.`],
+      ['3 · Stay for 14 days', 'Play as much as you like and keep the app installed. Feedback by email is very welcome.'],
+      ['Android only', 'iPhone comes later.'],
+    ],
+    testMail: (n) => [
+      `${n} – tester`,
+      `Hi Riddlewerk,\n\nI'd like to test ${n}.\n\nEmail address of my Google account (Play Store): \nName for the credits (optional): \n`,
+    ],
     videoEyebrow: 'Video',
     videoTitle: (n) => `${n} in motion`,
     videoCaption: 'The trailer shows real levels, solved by the game’s own rules, and the game’s own music.',
@@ -284,6 +321,34 @@ function page(game, lang) {
       </div>
     </section>`
     : '';
+  // Testers for the closed test Google asks of a new account: a mail to us is the whole sign-up.
+  // A link, not a form, because the site's policy allows no form posts and no other hosts.
+  const [testSubject, testBody] = ui.testMail(t.name);
+  const testMailto = `mailto:${CONTACT}?subject=${encodeURIComponent(testSubject)}&body=${encodeURIComponent(testBody)}`;
+  const testers = game.testers
+    ? `
+    <section class="section dsection" id="${ui.testAnchor}" aria-labelledby="test-title">
+      <div class="wrap">
+        <div class="contact">
+          <p class="eyebrow">${esc(ui.testEyebrow)}</p>
+          <h2 id="test-title">${esc(ui.testTitle(t.name))}</h2>
+          <p>${esc(ui.testLead(t.name))}</p>
+          <a class="contact__mail" href="${esc(testMailto)}">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg>
+            ${esc(ui.testButton)}
+          </a>
+          <ul class="contact__help">
+            ${ui.testSteps(t.name).map(([head, body]) => `<li><b>${esc(head)}</b>${esc(body)}</li>`).join('\n            ')}
+          </ul>
+        </div>
+      </div>
+    </section>`
+    : '';
+  // The Play listing's address is kept from the start; it becomes a link once the app is live.
+  const playItem =
+    game.store?.play && game.store?.playLive
+      ? `<li><a href="${esc(game.store.play)}">${esc(ui.onPlay)}</a></li>`
+      : `<li>${esc(ui.soon[0])}</li>`;
   const others = games.filter((g) => g.id !== id);
 
   return `<!doctype html>
@@ -353,11 +418,12 @@ function page(game, lang) {
             ${t.lead.map((p) => `<p>${esc(p)}</p>`).join('\n            ')}
           </div>
           <ul class="availability" aria-label="${esc(ui.availability)}">
-            <li>${esc(ui.soon[0])}</li>
+            ${playItem}
             <li>${esc(ui.soon[1])}</li>
           </ul>
           <div class="dhero__actions">
-            ${m.video ? `<a class="btn" href="#video">${esc(ui.watch)}<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></a>` : ''}
+            ${game.testers ? `<a class="btn" href="#${ui.testAnchor}">${esc(ui.testAction)}</a>
+            ` : ''}${m.video ? `<a class="btn${game.testers ? ' btn--ghost' : ''}" href="#video">${esc(ui.watch)}<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></a>` : ''}
             ${m.gallery ? `<a class="btn btn--ghost" href="#bilder">${esc(ui.look)}</a>` : ''}
           </div>
         </div>
@@ -366,7 +432,7 @@ function page(game, lang) {
         </div>
       </div>
     </section>
-${video}
+${testers}${video}
 
     <section class="section dsection" id="so-gehts" aria-labelledby="steps-title">
       <div class="wrap">

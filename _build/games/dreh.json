@@ -3,6 +3,11 @@
   "order": 1,
   "letters": "DREH",
   "flair": null,
+  "testers": true,
+  "store": {
+    "play": "https://play.google.com/store/apps/details?id=com.riddlewerk.dreh",
+    "playLive": false
+  },
   "media": {
     "video": true,
     "og": true,
@@ -42,6 +47,7 @@
     ],
     "features": [
       "Sechzehn Themenwelten mit je 40 Leveln – von Tiere, Natur und Küche bis Fantasie und Weltall.",
+      "Sechs Bonus-Welten von Leicht bis Insane – jederzeit spielbar, per Kauf oder mit drei kurzen Videos.",
       "Eigene Levelkataloge auf Deutsch und auf Englisch.",
       "Leicht: Jeder Zug passiert sofort. Schwer: Du planst alle Züge vorher und startest dann.",
       "Jedes Level ist vom Löser bewiesen, die kürzeste Lösung ist bekannt – schaffst du sie auch?",
@@ -172,6 +178,7 @@
     ],
     "features": [
       "Sixteen themed worlds of 40 levels each – from Animals, Nature and Kitchen to Fantasy and Space.",
+      "Six bonus worlds from Easy to Insane – playable any time, unlocked with a purchase or three short videos.",
       "Separate level catalogues in English and in German.",
       "Easy: every move happens at once. Hard: you plan all your moves first, then run the plan.",
       "Every level is proven solvable by the solver, and the shortest solution is known – can you match it?",
